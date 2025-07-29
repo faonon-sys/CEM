@@ -1,0 +1,21 @@
+{
+  "projectId": "proj_1753726545687_bjixeymrp",
+  "logs": [
+    {
+      "id": "log_1753804400321_tv4bakvru",
+      "timestamp": "2025-07-29T15:53:20.321Z",
+      "level": "warning",
+      "title": "Session stopped",
+      "message": "Session session_1753804215788_fsa19o0u0 has been stopped from Activity Console",
+      "sessionId": "session_1753804215788_fsa19o0u0"
+    },
+    {
+      "id": "log_1753804400356_hysckp10g",
+      "timestamp": "2025-07-29T15:53:20.356Z",
+      "level": "error",
+      "title": "Stop failed",
+      "message": "Error stopping session: No execution state found for project proj_1753726545687_bjixeymrp"
+    }
+  ],
+  "lastUpdated": "2025-07-29T15:53:20.421Z"
+}

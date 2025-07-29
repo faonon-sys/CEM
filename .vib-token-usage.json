@@ -2,6 +2,22 @@
   "projectId": "proj_1753726545687_bjixeymrp",
   "usageHistory": [
     {
+      "id": "token_1753804401835_g6e97mb61",
+      "timestamp": "2025-07-29T15:53:21.835Z",
+      "agent": "claude-code-direct",
+      "agentType": "other",
+      "operation": "coding",
+      "inputTokens": 930,
+      "outputTokens": 620,
+      "totalTokens": 1550,
+      "cost": 0.013941915000000003,
+      "actualCost": 0.013941915000000003,
+      "model": "claude-code-sdk",
+      "promptPreview": "stop",
+      "responsePreview": "I understand you want me to stop. I'm not currently running any processes or tasks, so there's nothing to stop at the moment.\n\nIf you have any other commands or need help with something, just let me know!",
+      "projectPhase": "planning"
+    },
+    {
       "id": "token_1753803820118_1d0iyj5se",
       "timestamp": "2025-07-29T15:43:40.118Z",
       "agent": "welcome-generator",
@@ -920,8 +936,8 @@
     }
   ],
   "stats": {
-    "totalTokens": 65982,
-    "totalCost": 0.40200399,
+    "totalTokens": 67532,
+    "totalCost": 0.415945905,
     "agentBreakdown": {
       "welcome-generator": {
         "tokens": 14441,
@@ -972,10 +988,10 @@
         "averageTokensPerCall": 2152.3
       },
       "claude-code-direct": {
-        "tokens": 13500,
-        "cost": 0.12147099,
-        "callCount": 2,
-        "averageTokensPerCall": 6750
+        "tokens": 15050,
+        "cost": 0.135412905,
+        "callCount": 3,
+        "averageTokensPerCall": 5016.666666666667
       }
     },
     "phaseBreakdown": {
@@ -1000,12 +1016,12 @@
         "callCount": 14
       },
       "planning": {
-        "tokens": 27256,
-        "cost": 0.21280299,
-        "callCount": 40
+        "tokens": 28806,
+        "cost": 0.226744905,
+        "callCount": 41
       }
     },
-    "lastUpdated": "2025-07-29T15:43:40.118Z"
+    "lastUpdated": "2025-07-29T15:53:21.835Z"
   },
-  "lastUpdated": "2025-07-29T15:43:40.127Z"
+  "lastUpdated": "2025-07-29T15:53:21.861Z"
 }
