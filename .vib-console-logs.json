@@ -15,7 +15,22 @@
       "level": "error",
       "title": "Stop failed",
       "message": "Error stopping session: No execution state found for project proj_1753726545687_bjixeymrp"
+    },
+    {
+      "id": "log_1753804556893_cwnk95ic9",
+      "timestamp": "2025-07-29T15:55:56.893Z",
+      "level": "warning",
+      "title": "Session stopped",
+      "message": "Session session_1753804415354_rzgji2736 has been stopped from Activity Console",
+      "sessionId": "session_1753804415354_rzgji2736"
+    },
+    {
+      "id": "log_1753804556961_1w9bv3f0q",
+      "timestamp": "2025-07-29T15:55:56.961Z",
+      "level": "error",
+      "title": "Stop failed",
+      "message": "Error stopping session: No execution state found for project proj_1753726545687_bjixeymrp"
     }
   ],
-  "lastUpdated": "2025-07-29T15:53:20.421Z"
+  "lastUpdated": "2025-07-29T15:55:56.977Z"
 }

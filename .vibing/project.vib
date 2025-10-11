@@ -1,0 +1,74 @@
+{
+  "id": "proj_1760178857275_vporte4e6",
+  "name": "test",
+  "concept": "",
+  "path": "/Users/raminhedayatpour/Documents/VibeProjects/test",
+  "status": "concept",
+  "deploymentPort": 5000,
+  "targetUsers": [],
+  "businessGoals": [],
+  "projectType": "prototype",
+  "currentWizardStep": 0,
+  "useCaseNodes": [],
+  "requirementNodes": [],
+  "architectureNodes": [],
+  "sprintNodes": [],
+  "issueNodes": [],
+  "processFlow": {
+    "currentPhase": "concept",
+    "completedPhases": [],
+    "nodeCompletionStats": {
+      "concept": {
+        "total": 1,
+        "completed": 0,
+        "inProgress": 1,
+        "pending": 0
+      },
+      "useCase": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "requirement": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "architecture": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "sprint": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      }
+    },
+    "flowValid": true,
+    "validationErrors": [],
+    "lastUserInteraction": "2025-10-11T10:34:17.275Z",
+    "userFeedbackPending": false
+  },
+  "nodeHistory": [
+    {
+      "id": "hist_1760178857286",
+      "timestamp": "2025-10-11T10:34:17.275Z",
+      "action": "created",
+      "nodeId": "proj_1760178857275_vporte4e6",
+      "nodeType": "project",
+      "oldValue": null,
+      "newValue": "",
+      "cascadingChanges": [],
+      "userInitiated": true,
+      "userReasoning": "Project created by user"
+    }
+  ],
+  "createdAt": "2025-10-11T10:34:17.275Z",
+  "updatedAt": "2025-10-11T10:34:17.275Z",
+  "version": "1.0.0"
+}
