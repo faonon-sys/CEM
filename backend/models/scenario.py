@@ -4,14 +4,13 @@ Scenario and analysis models for multi-phase reasoning system.
 # Back-compat: re-export DependencyGraph so consumers can import it from models.scenario
 from .dependency_graph import DependencyGraph  # noqa: F401
 
-from sqlalchemy import Column, String, Text, Integer, Numeric, DateTime, ForeignKey
+from sqlalchemy import Column, String, Text, Integer, Numeric, DateTime, ForeignKey, JSON
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import relationship
 import uuid
 from datetime import datetime
 
 from models.database import Base
-
 
 class Scenario(Base):
     """Scenario model for storing user input contexts."""
