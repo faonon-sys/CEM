@@ -13,7 +13,7 @@
     "ambiguous situations"
   ],
   "projectType": "prototype",
-  "currentWizardStep": 3,
+  "currentWizardStep": 4,
   "useCaseNodes": [
     {
       "id": "uc_1760179360524_hsbju7zur",
@@ -937,7 +937,7 @@
     }
   ],
   "createdAt": "2025-10-11T10:34:17.275Z",
-  "updatedAt": "2025-11-11T12:59:40.844Z",
+  "updatedAt": "2025-11-11T13:06:01.259Z",
   "version": "1.0.0",
   "modelPreferences": {
     "managerModel": "haiku",
