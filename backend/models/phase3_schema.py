@@ -1,3 +1,4 @@
+from sqlalchemy import Column, String, Text, Integer, Numeric, DateTime, ForeignKey, Boolean, JSON
 """
 Phase 3 Enhanced Schema: Six-Axis Counterfactual Framework
 Sprint 4 - Task 1: Data Schema Design
@@ -30,7 +31,7 @@ class CounterfactualAxis(Base):
     name = Column(String(100), nullable=False, unique=True, index=True)
     description = Column(Text, nullable=False)
     prompt_template = Column(Text, nullable=False)
-    metadata = Column(JSONB)  # Additional axis configuration
+    meta = Column("metadata", JSON, nullable=True, default=dict)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
     # Relationships
@@ -90,8 +91,7 @@ class BreachCondition(Base):
 
     # Metadata
     reasoning = Column(Text)  # LLM reasoning for this breach
-    metadata = Column(JSONB)  # LLM model, prompt version, etc.
-
+    meta = Column("metadata", JSON, nullable=True, default=dict)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
     # Relationships
@@ -127,7 +127,7 @@ class CounterfactualV2(Base):
     factor_breakdown = Column(JSONB)  # Detailed scoring factor breakdown
 
     # Metadata
-    generation_metadata = Column(JSONB)  # LLM model, prompt, timestamp, etc.
+    generation_meta = Column("generation_metadata", JSON, nullable=True, default=dict)
     tags = Column(JSONB)  # User-defined tags for filtering
     selected_for_phase5 = Column(Boolean, default=False)  # Phase 5 selection flag
 
