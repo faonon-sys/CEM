@@ -96,3 +96,9 @@ activity-logs.json
 !package-lock.json
 !tsconfig.json
 !.env.example
+
+# Vibing project backup files
+.vibing/project.backup.*
+.vib-conversation-logs.json
+.vib-token-usage.json
+.vibing/project.vib
