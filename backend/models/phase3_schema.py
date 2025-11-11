@@ -1,4 +1,11 @@
 from sqlalchemy import Column, String, Text, Integer, Numeric, DateTime, ForeignKey, Boolean, JSON
+from sqlalchemy.dialects.postgresql import UUID
+from sqlalchemy.orm import relationship
+from datetime import datetime
+import uuid
+
+from models.database import Base
+
 """
 Phase 3 Enhanced Schema: Six-Axis Counterfactual Framework
 Sprint 4 - Task 1: Data Schema Design
