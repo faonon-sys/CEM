@@ -19,7 +19,15 @@ import networkx as nx
 # Import database models
 from models.database import SessionLocal
 from models.scenario import Scenario, Counterfactual
-from models.phase3_schema import FragilityAnalysis, BreachCondition, CounterfactualV2
+
+# ✅ load the whole module to avoid circular import issues
+import models.phase3_schema as phase3_schema
+
+# then take the symbols you need from the module object
+FragilityAnalysis = phase3_schema.FragilityAnalysis
+BreachCondition   = phase3_schema.BreachCondition
+CounterfactualV2  = phase3_schema.CounterfactualV2
+
 from models.scoring import CounterfactualScore
 
 # Import services
