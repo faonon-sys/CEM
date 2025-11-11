@@ -261,3 +261,15 @@ class CounterfactualPortfolio(Base):
 
     def __repr__(self):
         return f"<CounterfactualPortfolio(id={self.id}, name={self.name})>"
+
+__all__ = [
+    "CounterfactualAxis",
+    "BreachCondition",
+    "FragilityPoint",
+    "CounterfactualV2",
+    "ConsequenceChain",
+    "ScenarioRelationship",
+    "StrategicOutcome",
+    "FragilityAnalysis",
+]
+
