@@ -1,6 +1,9 @@
 """
 Scenario and analysis models for multi-phase reasoning system.
 """
+# Back-compat: re-export DependencyGraph so consumers can import it from models.scenario
+from .dependency_graph import DependencyGraph  # noqa: F401
+
 from sqlalchemy import Column, String, Text, Integer, Numeric, DateTime, ForeignKey
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import relationship
