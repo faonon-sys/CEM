@@ -112,3 +112,6 @@ class StrategicOutcome(Base):
 
     def __repr__(self):
         return f"<StrategicOutcome(id={self.id}, counterfactual_id={self.counterfactual_id})>"
+        
+# compatibility alias
+CounterfactualV2 = Counterfactual
