@@ -1,0 +1,184 @@
+.comparison-view {
+  width: 100%;
+}
+
+.comparison-view h1 {
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.comparison-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.comparison-header {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.add-scenario-btn, .export-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.add-scenario-btn {
+  background-color: #646cff;
+  border: none;
+  color: white;
+}
+
+.export-btn {
+  background-color: #22c55e;
+  border: none;
+  color: white;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.scenario-column {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.scenario-header {
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.scenario-header h3 {
+  margin-bottom: 0.5rem;
+}
+
+.axis-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: #a855f7;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.scenario-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.score-display label {
+  display: block;
+  font-size: 0.75rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.score-bar-lg {
+  height: 32px;
+  background-color: #333;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.score-bar-lg .fill {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.score-bar-lg.severity .fill {
+  background: linear-gradient(90deg, #fbbf24, #ef4444);
+}
+
+.score-bar-lg.probability .fill {
+  background: linear-gradient(90deg, #60a5fa, #3b82f6);
+}
+
+.domains-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.domains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.domain-tag {
+  padding: 0.25rem 0.75rem;
+  background-color: #333;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.overlap-analysis, .portfolio-builder {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.overlap-analysis h2, .portfolio-builder h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.overlap-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.overlap-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background-color: #2a2a2a;
+  border-radius: 4px;
+}
+
+.frequency {
+  font-weight: 600;
+  color: #22c55e;
+}
+
+.portfolio-zone {
+  margin-top: 1rem;
+}
+
+.dropzone {
+  min-height: 150px;
+  border: 2px dashed #444;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}

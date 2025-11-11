@@ -1,0 +1,987 @@
+{
+  "id": "proj_1760178857275_vporte4e6",
+  "name": "test",
+  "concept": "A structured reasoning system for analyzing complex, high-stakes scenarios through systematic deconstruction. The system operates in three phases: (1) Surface Premise Analysis - identifies dominant public assumptions and baseline narratives, (2) Deep Questioning - exposes hidden fragilities, blind spots, and unstated dependencies through rigorous interrogation, and (3) Counterfactual Generation - explores alternative outcomes across six strategic axes by forcing breach conditions and mapping potential strategic consequences. Designed to challenge conventional wisdom and reveal non-obvious risk vectors in critical decision-making contexts. 5 step is strategic outcome \n",
+  "path": "/Users/raminhedayatpour/Documents/VibeProjects/test",
+  "status": "development",
+  "deploymentPort": 5000,
+  "targetUsers": [
+    "- Policy makers and government strategists\n- Risk analysts and decision scientists\n- Corporate executives and C-suite leaders\n- Strategic planners and consultants\n- National security analysts\n- Investment fund managers and analysts\n- Crisis management teams\n- Research institutions and think tanks\n- Intelligence analysts\n- Business continuity planners"
+  ],
+  "businessGoals": [
+    "- Reduce decision-making blind spots by 40% through systematic scenario analysis\n- Enable proactive identification of hidden risks before they materialize\n- Improve strategic outcome prediction accuracy by exposing faulty assumptions\n- Build competitive advantage through superior counterfactual reasoning capabilities\n- Reduce catastrophic decision failures by challenging surface-level premises\n- Accelerate high-stakes decision cycles while maintaining rigor\n- Create defensible decision audit trails for accountability\n- Monetize reasoning framework as consulting methodology or SaaS platform\n- Establish thought leadership in strategic analysis and scenario planning\n- Generate actionable intelligence from complex",
+    "ambiguous situations"
+  ],
+  "projectType": "prototype",
+  "currentWizardStep": 5,
+  "useCaseNodes": [
+    {
+      "id": "uc_1760179360524_hsbju7zur",
+      "type": "useCase",
+      "title": "Execute Multi-Phase Scenario Analysis",
+      "description": "User inputs a complex, high-stakes scenario (e.g., geopolitical crisis, corporate strategy decision, policy implementation). System guides them through the three-phase analysis: Surface Premise Analysis to map dominant assumptions, Deep Questioning to expose hidden vulnerabilities and dependencies, and Counterfactual Generation to explore alternative outcomes across six strategic axes. User receives structured output identifying risk vectors and strategic implications.",
+      "priority": "high",
+      "status": "draft",
+      "actors": [
+        "user",
+        "system"
+      ],
+      "preconditions": "",
+      "postconditions": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:42:40.525Z",
+      "updatedAt": "2025-10-11T10:42:40.525Z",
+      "version": 1
+    },
+    {
+      "id": "uc_1760179360525_j1x0u3hiq",
+      "type": "useCase",
+      "title": "Compare Baseline vs Counterfactual Outcomes",
+      "description": "User reviews a completed scenario analysis and requests side-by-side comparison of baseline assumptions against generated counterfactual scenarios. System presents structured comparison highlighting divergence points, breach conditions that would trigger alternative outcomes, and relative probability/impact assessments across the six strategic axes.",
+      "priority": "high",
+      "status": "draft",
+      "actors": [
+        "user",
+        "system"
+      ],
+      "preconditions": "",
+      "postconditions": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:42:40.525Z",
+      "updatedAt": "2025-10-11T10:42:40.525Z",
+      "version": 1
+    },
+    {
+      "id": "uc_1760179360525_geow52y0b",
+      "type": "useCase",
+      "title": "Extract Risk Vectors and Dependencies Report",
+      "description": "After completing Deep Questioning phase, user requests comprehensive report of identified blind spots, unstated dependencies, and fragility points. System generates exportable report categorizing risks by domain (operational, reputational, strategic, etc.) with severity ratings and interdependency mapping.",
+      "priority": "medium",
+      "status": "draft",
+      "actors": [
+        "user",
+        "system"
+      ],
+      "preconditions": "",
+      "postconditions": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:42:40.525Z",
+      "updatedAt": "2025-10-11T10:42:40.525Z",
+      "version": 1
+    },
+    {
+      "id": "uc_1760179360525_chknosbmw",
+      "type": "useCase",
+      "title": "Track Strategic Outcome Trajectories",
+      "description": "User selects one or more counterfactual scenarios from Step 3 and requests Step 5 strategic outcome projection. System analyzes trajectory pathways, identifies decision points, maps cascading consequences, and presents timeline-based outcome scenarios with confidence intervals and key inflection points.",
+      "priority": "medium",
+      "status": "draft",
+      "actors": [
+        "user",
+        "system"
+      ],
+      "preconditions": "",
+      "postconditions": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:42:40.525Z",
+      "updatedAt": "2025-10-11T10:43:40.774Z",
+      "version": 2
+    }
+  ],
+  "requirementNodes": [
+    {
+      "id": "req_1760179450480_4ekuou792",
+      "type": "requirement",
+      "title": "Three-Phase Sequential Analysis Workflow",
+      "description": "5 core phases : input phase / diagnostic phase / counterfactual phase / breach phase / synthesis ",
+      "priority": "high",
+      "category": "functional",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:44:10.480Z",
+      "updatedAt": "2025-10-11T10:46:27.607Z",
+      "version": 3,
+      "acceptanceCriteria": [],
+      "dependencies": []
+    },
+    {
+      "id": "req_1760179450480_nhvjr1sg9",
+      "type": "requirement",
+      "title": "Automated Assumption Extraction Engine",
+      "description": "During Surface Premise Analysis, the system must automatically identify and extract dominant public assumptions, baseline narratives, and conventional wisdom from user-provided scenario descriptions. This engine should categorize assumptions by domain (political, economic, operational, etc.) and present them in a structured format for user validation and refinement.",
+      "priority": "high",
+      "category": "functional",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:44:10.480Z",
+      "updatedAt": "2025-10-11T10:44:10.480Z",
+      "version": 1,
+      "acceptanceCriteria": [],
+      "dependencies": []
+    },
+    {
+      "id": "req_1760179450480_1zat5wnar",
+      "type": "requirement",
+      "title": "Interrogative Deep Questioning Framework",
+      "description": "The system must implement a rigorous questioning mechanism that systematically exposes hidden fragilities, blind spots, and unstated dependencies. This should include pre-configured question templates across multiple dimensions (temporal, structural, actor-based, resource-based) and generate context-specific probing questions that challenge each identified assumption from Phase 1.",
+      "priority": "high",
+      "category": "functional",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:44:10.480Z",
+      "updatedAt": "2025-10-11T10:44:10.480Z",
+      "version": 1,
+      "acceptanceCriteria": [],
+      "dependencies": []
+    },
+    {
+      "id": "req_1760179450480_gab6sqcbw",
+      "type": "requirement",
+      "title": "Six-Axis Counterfactual Scenario Generator",
+      "description": "The system must generate alternative outcome scenarios across six predefined strategic axes by forcing breach conditions on identified assumptions. Each counterfactual must specify the breach condition trigger, map divergence points from baseline, and project cascading consequences. The generator should produce 3-5 distinct counterfactuals per axis with severity and probability ratings.",
+      "priority": "high",
+      "category": "functional",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:44:10.480Z",
+      "updatedAt": "2025-10-11T10:44:10.480Z",
+      "version": 1,
+      "acceptanceCriteria": [],
+      "dependencies": []
+    },
+    {
+      "id": "req_1760179450480_gj06qq9dn",
+      "type": "requirement",
+      "title": "Risk Vector Visualization and Dependency Mapping",
+      "description": "The system must provide interactive visualization of identified risk vectors, showing interdependencies between blind spots, assumptions, and potential failure points. This should include network-style dependency graphs, heat maps for risk severity across domains, and drill-down capabilities to explore specific vulnerability clusters discovered during Deep Questioning.",
+      "priority": "medium",
+      "category": "functional",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:44:10.480Z",
+      "updatedAt": "2025-10-11T10:44:10.480Z",
+      "version": 1,
+      "acceptanceCriteria": [],
+      "dependencies": []
+    },
+    {
+      "id": "req_1760179450480_u83t2taoz",
+      "type": "requirement",
+      "title": "Strategic Outcome Trajectory Projection System",
+      "description": "For Step 5, the system must analyze selected counterfactual scenarios and project strategic outcome trajectories over time. This includes identifying critical decision points, mapping cascading consequences, generating timeline-based outcome scenarios with confidence intervals, and highlighting key inflection points where interventions could alter trajectories. Each trajectory should be exportable for strategic planning purposes.",
+      "priority": "medium",
+      "category": "functional",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:44:10.480Z",
+      "updatedAt": "2025-10-11T10:44:10.480Z",
+      "version": 1,
+      "acceptanceCriteria": [],
+      "dependencies": []
+    }
+  ],
+  "architectureNodes": [
+    {
+      "id": "arch_1760179618129_0afnk7jfv",
+      "type": "architecture",
+      "name": "Option A: Python AI Stack with Interactive Visualization",
+      "description": "Python-based prototype leveraging NLP/AI libraries for assumption extraction and counterfactual generation, with React frontend for interactive risk visualization and scenario exploration. Ideal for rapid prototyping of AI-driven reasoning workflows.\n\n- Frontend: React + D3.js/Recharts\n- Backend: Python/FastAPI\n- AI/NLP: OpenAI API or Anthropic Claude API\n- Database: SQLite or PostgreSQL\n- Visualization: D3.js for dependency graphs and risk mapping\n- Hosting: Render or Railway\n",
+      "priority": "high",
+      "status": "proposed",
+      "category": "stack",
+      "technology": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:46:58.129Z",
+      "updatedAt": "2025-10-11T10:46:58.129Z",
+      "version": 1,
+      "dependencies": [],
+      "technologies": []
+    },
+    {
+      "id": "arch_1760179618129_nlsirfwh4",
+      "type": "architecture",
+      "name": "Option B: Full-Stack TypeScript with LLM Integration",
+      "description": "TypeScript end-to-end solution with Node.js backend and modern React frontend. Uses LLM APIs for reasoning phases and includes component libraries for rapid UI development of analysis workflows and visualizations.\n\n- Frontend: Next.js + TypeScript + Tailwind CSS\n- Backend: Node.js/Express or Next.js API routes\n- AI/LLM: LangChain + OpenAI/Anthropic API\n- Database: PostgreSQL with Prisma ORM\n- Visualization: Recharts + React Flow for dependency mapping\n- Hosting: Vercel\n",
+      "priority": "high",
+      "status": "proposed",
+      "category": "stack",
+      "technology": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:46:58.129Z",
+      "updatedAt": "2025-10-11T10:46:58.129Z",
+      "version": 1,
+      "dependencies": [],
+      "technologies": []
+    },
+    {
+      "id": "arch_1760179618129_qnhzqw9h3",
+      "type": "architecture",
+      "name": "Option C: Lightweight Streamlit Prototype",
+      "description": "Rapid prototype using Streamlit for quick Python-based UI development. Minimizes frontend complexity while focusing on AI reasoning logic and basic visualization. Best for proof-of-concept and internal stakeholder demos.\n\n- Frontend: Streamlit (Python-based UI)\n- Backend: Python (integrated with Streamlit)\n- AI/NLP: OpenAI API or Anthropic Claude API\n- Database: SQLite or JSON file storage\n- Visualization: Plotly + NetworkX for graph visualization\n- Hosting: Streamlit Cloud or Heroku\n",
+      "priority": "medium",
+      "status": "proposed",
+      "category": "stack",
+      "technology": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-11T10:46:58.129Z",
+      "updatedAt": "2025-10-11T10:46:58.129Z",
+      "version": 1,
+      "dependencies": [],
+      "technologies": []
+    },
+    {
+      "id": "arch_1760271000000_coda",
+      "type": "architecture",
+      "name": "Option D: Coda No-Code Collaborative Intelligence Platform",
+      "description": "Build the entire structured reasoning system within Coda as an interactive, collaborative document-database hybrid. Leverage Coda's powerful formula language, tables, automations, and AI capabilities to create a zero-code prototype optimized for rapid iteration and multi-stakeholder collaboration.\n\n- Platform: Coda (all-in-one doc + database + app builder)\n- AI Integration: Coda AI + Anthropic Claude API via Coda Packs\n- Data Storage: Coda Tables (structured relational data with views)\n- Frontend/UI: Coda Pages with rich interactive components and layouts\n- Workflow Automation: Coda Automations + Button Actions + Cross-doc sync\n- Visualization: Coda Charts + embedded Mermaid/D3.js diagrams\n- Collaboration: Real-time multi-user editing, commenting, and version history\n- Deployment: Instant publishing via Coda's cloud (zero DevOps)\n- Extensions: Custom Coda Packs for specialized AI reasoning logic\n- Integrations: 500+ apps via Packs (Slack, Gmail, calendars, project tools)\n\nKey Advantages:\n- Zero-code/low-code rapid prototyping (build in days, not weeks)\n- Built-in collaboration with real-time editing and commenting\n- Native version history and audit trails for compliance\n- Live data binding across all 5 analysis phases\n- Interactive forms and workflows out-of-the-box\n- Mobile-responsive design automatically\n- Instant deployment without infrastructure management\n- Easy stakeholder sharing and feedback collection\n- Natural fit for iterative scenario analysis workflows\n- Cost-effective for prototype/MVP validation phase\n- Seamless transition to user testing with real stakeholders\n- Formula language enables complex logic without coding\n- Button-triggered automations for phase transitions\n",
+      "priority": "high",
+      "status": "proposed",
+      "category": "stack",
+      "technology": "",
+      "isEditing": false,
+      "isDirty": false,
+      "createdAt": "2025-10-13T09:36:40.000Z",
+      "updatedAt": "2025-10-13T09:36:40.000Z",
+      "version": 1,
+      "dependencies": [],
+      "technologies": []
+    }
+  ],
+  "sprintNodes": [
+    {
+      "id": "sprint_1760180146080_1",
+      "type": "sprint",
+      "name": "Sprint 1: Foundation & Core Architecture",
+      "description": "Select and implement technology stack (Python AI/TypeScript/Streamlit), establish project structure, configure LLM API integration, implement basic authentication, design and initialize database schema for scenarios/analyses/assumptions, setup development environment and CI/CD pipeline",
+      "priority": "high",
+      "status": "completed",
+      "isEditing": false,
+      "individualTasks": [
+        {
+          "title": "Technology Stack Selection and Project Structure Setup",
+          "description": "Evaluate and select the optimal technology stack (Python for AI/ML processing, TypeScript for frontend logic, Streamlit for rapid UI prototyping). Establish project directory structure with separation of concerns: backend AI engine, frontend interface, database layer, and shared utilities. Initialize Git repository with appropriate .gitignore and README documentation.",
+          "purpose": "Foundation for the entire structured reasoning system that will handle complex multi-phase analysis workflows. The stack must support LLM integration, interactive UI for three-phase analysis, and efficient data persistence for scenarios and analyses.",
+          "functionality": "Creates organized monorepo or multi-repo structure with Python backend (FastAPI/Flask), TypeScript frontend integration points, Streamlit UI framework, and clear boundaries between assumption extraction, deep questioning, and counterfactual generation modules.",
+          "successCriteria": "Project structure is established with working build/run scripts, all dependencies are installable, sample 'Hello World' endpoints work across stack layers, and team can run development environment locally.",
+          "status": "completed"
+        },
+        {
+          "title": "LLM API Integration and Reasoning Engine Core",
+          "description": "Integrate OpenAI/Anthropic/other LLM API with proper authentication, rate limiting, and error handling. Build core reasoning engine abstraction layer that will power all three analysis phases. Implement prompt engineering framework for assumption extraction, interrogative questioning, and counterfactual generation. Create reusable LLM interaction patterns with streaming support and token management.",
+          "purpose": "The LLM is the cognitive engine behind Surface Premise Analysis, Deep Questioning, and Counterfactual Generation. This integration must be robust enough to handle systematic deconstruction of complex scenarios with context management across multi-turn interactions.",
+          "functionality": "Provides unified LLM service layer with methods for assumption extraction, vulnerability probing, and scenario generation. Includes prompt templates for each phase, response parsing utilities, context window management, and fallback handling for API failures.",
+          "successCriteria": "LLM API successfully processes test scenarios through all three phases, returns structured outputs (assumptions, questions, counterfactuals), handles errors gracefully, and demonstrates consistent reasoning quality across multiple test inputs.",
+          "status": "completed"
+        },
+        {
+          "title": "Database Schema Design and Implementation",
+          "description": "Design and implement database schema optimized for storing complex scenario analyses. Core entities: Scenarios (user input contexts), SurfaceAnalyses (extracted assumptions and narratives), DeepQuestions (fragility probes and dependencies), Counterfactuals (alternative outcomes across six axes), and StrategicOutcomes (Step 5 trajectory projections). Include relationships for assumption-to-question mappings, counterfactual-to-breach-condition links, and analysis versioning.",
+          "purpose": "Persistent storage is critical for tracking multi-phase analyses, enabling comparison of baseline vs counterfactual outcomes, generating risk reports, and maintaining audit trails of reasoning processes for high-stakes decision contexts.",
+          "functionality": "PostgreSQL/MongoDB schema with tables/collections for all five phases of analysis. Supports storing structured assumptions with categorization, interrogative questions with context, counterfactual scenarios with six-axis metadata, and strategic outcome trajectories with temporal data. Includes indexes for efficient querying and foreign key relationships for data integrity.",
+          "successCriteria": "Database successfully stores complete analysis workflow from scenario input through strategic outcomes, supports querying by scenario ID/phase/axis, maintains referential integrity between related entities, and handles migration scripts for schema evolution.",
+          "status": "completed"
+        },
+        {
+          "title": "Authentication and User Session Management",
+          "description": "Implement secure authentication system supporting user registration, login, and session management. Build authorization layer to ensure users can only access their own scenario analyses. Integrate with Streamlit's session state for UI persistence and implement JWT/session tokens for API authentication between frontend and backend services.",
+          "purpose": "High-stakes scenario analyses contain sensitive strategic information. Users need secure, isolated workspaces where their complex geopolitical/corporate/policy scenarios remain confidential and analysis history is preserved across sessions.",
+          "functionality": "Provides user authentication endpoints (register/login/logout), secure password hashing, session token generation/validation, and user-scoped database queries. Streamlit UI integrates authentication state to show user-specific scenarios and analyses.",
+          "successCriteria": "Users can register, login, and access only their own scenarios. Sessions persist across page refreshes, authentication tokens expire appropriately, and unauthorized access attempts are blocked. Test accounts can perform full analysis workflows in isolation.",
+          "status": "completed"
+        },
+        {
+          "title": "Development Environment and CI/CD Pipeline Setup",
+          "description": "Configure comprehensive development environment with Docker containerization for consistent deployments, environment variable management for API keys and secrets, linting/formatting tools (Black, ESLint, Prettier), and automated testing frameworks (pytest, Jest). Establish CI/CD pipeline using GitHub Actions or GitLab CI for automated testing, code quality checks, and deployment to staging environment.",
+          "purpose": "Complex reasoning system requires reliable deployment processes, consistent code quality, and automated testing to ensure the multi-phase analysis workflow functions correctly. CI/CD enables rapid iteration on LLM prompts and reasoning logic while maintaining system stability.",
+          "functionality": "Provides Dockerfiles for backend/frontend services, docker-compose for local development, pre-commit hooks for code quality, automated test suites for core reasoning functions, and CI/CD workflows that run tests, build containers, and deploy to staging on merge to main branch.",
+          "successCriteria": "Development environment runs consistently across team machines using Docker, CI pipeline successfully runs tests and quality checks on every commit, staging environment automatically deploys after successful builds, and deployment process is documented for production rollout.",
+          "status": "completed"
+        },
+        {
+          "title": "Phase 1 Surface Premise Analysis - Core Implementation",
+          "description": "Build the Surface Premise Analysis module that processes user-provided scenario descriptions and extracts dominant public assumptions, baseline narratives, and conventional wisdom. Implement assumption categorization by domain (political, economic, operational, etc.) and present structured output for user validation. Create Streamlit interface components for scenario input and assumption review/refinement.",
+          "purpose": "Phase 1 is the foundation of the three-phase reasoning system. Accurate assumption extraction determines the quality of subsequent deep questioning and counterfactual generation. This module must reliably identify implicit beliefs and stated premises that will be challenged in later phases.",
+          "functionality": "Accepts free-text scenario descriptions, uses LLM to extract key assumptions with domain categorization, stores assumptions in database linked to scenario, and presents interactive UI where users can validate/edit/add assumptions before proceeding to Phase 2.",
+          "successCriteria": "System successfully extracts 5-15 meaningful assumptions from complex scenario inputs, categorizes them appropriately, allows user refinement through Streamlit UI, persists validated assumptions to database, and enables progression to Deep Questioning phase.",
+          "status": "completed"
+        },
+        {
+          "title": "Phase 2 Deep Questioning Framework - Interrogative Engine",
+          "description": "Implement the Deep Questioning phase that systematically exposes hidden fragilities, blind spots, and unstated dependencies. Build question generation engine using pre-configured templates across multiple dimensions (temporal, structural, actor-based, resource-based) that challenge each assumption from Phase 1. Create mechanism for iterative questioning depth and user-guided interrogation focus.",
+          "purpose": "Phase 2 is where the system reveals non-obvious risk vectors by rigorously interrogating surface assumptions. This interrogative engine must generate context-specific probing questions that expose vulnerability clusters and dependency chains critical for high-stakes decision analysis.",
+          "functionality": "Takes Phase 1 assumptions as input, generates 3-7 probing questions per assumption using multi-dimensional templates, allows users to rate question relevance and request deeper probes on specific fragilities, stores questions and user responses in database, and identifies blind spot patterns across the scenario.",
+          "successCriteria": "System generates meaningful interrogative questions for each assumption, questions expose non-obvious dependencies and fragilities (validated through test scenarios with known vulnerabilities), users can iteratively deepen questioning on specific aspects, and Phase 2 output feeds into counterfactual generation.",
+          "status": "completed"
+        },
+        {
+          "title": "Phase 3 Counterfactual Generator - Six-Axis Scenario Engine",
+          "description": "Build the Counterfactual Generation module that explores alternative outcomes across six strategic axes by forcing breach conditions on identified assumptions. Implement scenario generator that produces 3-5 distinct counterfactuals per axis, each specifying breach condition trigger, divergence points from baseline, and cascading consequences. Include severity and probability rating system.",
+          "purpose": "Phase 3 is the strategic output that challenges conventional wisdom by mapping what happens when surface assumptions fail. The six-axis approach ensures comprehensive coverage of strategic alternatives, revealing potential outcomes that traditional analysis might miss in complex, high-stakes contexts.",
+          "functionality": "Takes Phase 1 assumptions and Phase 2 vulnerabilities as input, generates counterfactual scenarios across six predefined axes (define axes based on strategic domains), maps breach conditions that trigger each alternative, projects cascading consequences, assigns probability/severity ratings, and stores structured counterfactuals for comparison against baseline.",
+          "successCriteria": "System generates 18-30 counterfactual scenarios (3-5 per axis) for a given analysis, each counterfactual includes clear breach condition and consequence chain, users can compare counterfactuals against baseline through UI, and outputs are sufficiently detailed for strategic planning use.",
+          "status": "completed"
+        },
+        {
+          "title": "Phase 5 Strategic Outcome Trajectory System",
+          "description": "Implement the Strategic Outcome projection system (Phase 5/Step 5) that analyzes selected counterfactual scenarios and projects trajectory pathways over time. Build timeline-based outcome modeling that identifies critical decision points, maps cascading consequences, generates confidence intervals, and highlights key inflection points where interventions could alter trajectories.",
+          "purpose": "Phase 5 transforms counterfactual scenarios into actionable strategic intelligence by projecting how alternative outcomes unfold over time. This temporal analysis reveals intervention opportunities and helps decision-makers understand trajectory dynamics in complex, high-stakes situations.",
+          "functionality": "Accepts one or more counterfactual scenarios from Phase 3, projects outcome trajectories across defined time horizons, identifies decision points and inflection points, generates confidence intervals for trajectory branches, maps cascading consequence chains, and produces exportable timeline visualizations for strategic planning.",
+          "successCriteria": "System successfully projects strategic outcome trajectories for selected counterfactuals, identifies meaningful decision points and inflection points, generates timeline-based visualizations that show trajectory evolution, includes confidence/uncertainty indicators, and produces exportable reports for strategic use.",
+          "status": "completed"
+        },
+        {
+          "title": "Basic UI Flow and Phase Navigation System",
+          "description": "Build Streamlit-based user interface that guides users through the five-phase analysis workflow. Implement clear navigation between phases, progress indicators, intermediate result displays (assumptions, questions, counterfactuals, outcomes), and phase completion checkpoints. Create responsive layouts optimized for complex data presentation and user interaction with analysis outputs.",
+          "purpose": "The structured reasoning system requires intuitive UI that guides users through multi-phase analysis while handling complex outputs (assumptions, interrogative questions, counterfactual scenarios, trajectories). UI must balance workflow guidance with flexibility for iterative refinement.",
+          "functionality": "Provides Streamlit pages/components for each phase, persistent navigation sidebar showing analysis progress, summary cards for completed phases, interactive elements for assumption validation and question response, comparison views for baseline vs counterfactuals, and export functionality for reports and visualizations.",
+          "successCriteria": "Users can navigate full five-phase workflow through intuitive UI, phase outputs are clearly displayed and editable where appropriate, progress is preserved across sessions, complex data structures (dependencies, trajectories) are presented in understandable formats, and users can export analysis results.",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "sprint_1760180146080_2",
+      "type": "sprint",
+      "name": "Sprint 2: Phase 1 - Surface Premise Analysis Engine",
+      "description": "Implement automated assumption extraction engine using NLP/LLM, build assumption categorization system (political/economic/operational domains), create user interface for scenario input and assumption validation, develop structured output formatting for extracted premises, integrate assumption storage and retrieval",
+      "priority": "high",
+      "status": "completed",
+      "isEditing": false,
+      "individualTasks": [
+        {
+          "title": "Design and implement LLM-based assumption extraction engine",
+          "description": "Build the core NLP/LLM service that analyzes user-provided scenario text and automatically extracts dominant assumptions, baseline narratives, and conventional wisdom. Implement prompt engineering for structured assumption identification with context preservation.",
+          "purpose": "This is the foundational capability for Phase 1 - without automated extraction, users would need to manually identify all assumptions, defeating the purpose of systematic analysis",
+          "functionality": "Accept scenario text input, process through LLM with specialized prompts, return structured list of identified assumptions with confidence scores and source text references",
+          "successCriteria": "Given a complex scenario description (500+ words), the engine extracts 8-15 distinct assumptions with >80% relevance accuracy as validated by domain experts",
+          "status": "completed"
+        },
+        {
+          "title": "Implement multi-domain assumption categorization system",
+          "description": "Create classification logic and data structures to categorize extracted assumptions into domains (political, economic, operational, social, technical, environmental). Build taxonomy with sub-categories and tag system for cross-domain assumptions.",
+          "purpose": "Users need organized, domain-segmented view of assumptions to ensure comprehensive coverage and identify domain-specific blind spots during subsequent Deep Questioning phase",
+          "functionality": "Process raw extracted assumptions, apply domain classification using rule-based and ML-based categorization, assign primary and secondary domain tags, generate domain distribution analytics",
+          "successCriteria": "100% of extracted assumptions receive at least one domain classification, with multi-domain assumptions correctly tagged across relevant categories; domain distribution visualization shows clear segmentation",
+          "status": "completed"
+        },
+        {
+          "title": "Develop structured assumption output formatting and export",
+          "description": "Create standardized data schema for extracted and validated assumptions, implement JSON and markdown export formats, build summary report generator that presents assumptions grouped by domain with metadata (confidence scores, source references, validation status).",
+          "purpose": "Analysis results must be portable, shareable, and consumable by downstream phases (Deep Questioning, Counterfactual Generation) and external stakeholders",
+          "functionality": "Format validated assumptions into structured schema with all metadata, generate human-readable reports with domain groupings and statistics, provide export to JSON (for system consumption) and markdown (for human review), maintain version history",
+          "successCriteria": "Exported outputs contain complete assumption data with metadata, markdown reports are readable and well-organized by domain, JSON exports successfully import into Deep Questioning phase without data transformation",
+          "status": "completed"
+        },
+        {
+          "title": "Implement assumption storage and retrieval system",
+          "description": "Build database schema for storing scenario inputs, extracted assumptions, validation history, and user edits. Implement CRUD operations, search/filter capabilities by domain/date/scenario, and analysis session management with save/load functionality.",
+          "purpose": "Users need persistent storage to save work-in-progress analyses, retrieve historical scenarios for comparison, and build institutional knowledge base of common assumptions across scenario types",
+          "functionality": "Store all scenario and assumption data with user associations, enable retrieval by multiple criteria (scenario keywords, domain filters, date ranges), support session resumption from any analysis stage, provide search across historical assumptions",
+          "successCriteria": "Users can save analysis at any point and resume without data loss, search historical scenarios with <2 second response time, retrieve all assumptions for a given domain across multiple scenarios for pattern analysis",
+          "status": "completed"
+        },
+        {
+          "title": "Create assumption quality scoring and confidence metrics",
+          "description": "Develop scoring algorithm that evaluates assumption quality based on specificity, verifiability, impact potential, and source strength. Implement confidence metrics for extraction accuracy. Build UI indicators to help users prioritize which assumptions warrant deeper scrutiny.",
+          "purpose": "Not all assumptions are equally important - users need guidance on which extracted assumptions are most critical to validate and which will be most productive for Deep Questioning phase",
+          "functionality": "Analyze each extracted assumption for quality dimensions, assign composite quality score (0-100), generate confidence intervals for extraction accuracy, rank assumptions by criticality, surface high-impact/low-confidence assumptions for priority review",
+          "successCriteria": "Each assumption receives quality score and confidence metric, high-priority assumptions (top 20%) consistently align with expert judgment in test scenarios, UI clearly highlights assumptions requiring user attention",
+          "status": "completed"
+        },
+        {
+          "title": "Build assumption relationship and dependency detector",
+          "description": "Implement analysis logic to identify relationships between extracted assumptions - which assumptions depend on or contradict each other. Create initial dependency graph that will feed into risk vector visualization in later requirements.",
+          "purpose": "Assumptions don't exist in isolation - understanding assumption interdependencies reveals compound vulnerabilities and helps users identify which assumptions, if breached, cascade to others",
+          "functionality": "Analyze assumption pairs for logical dependencies, contradictions, and reinforcements; construct directed graph of assumption relationships; flag circular dependencies and assumption clusters; prepare data structure for Phase 2 vulnerability analysis",
+          "successCriteria": "System correctly identifies at least 60% of assumption dependencies compared to expert analysis, generates dependency graph with clear parent/child relationships, flags contradictory assumption pairs for user resolution",
+          "status": "completed"
+        },
+        {
+          "title": "Implement baseline narrative synthesis and summary",
+          "description": "Build capability to synthesize all validated assumptions into cohesive baseline narrative summary that represents the dominant worldview embedded in the scenario. Generate natural language summary that articulates the implicit mental model being analyzed.",
+          "purpose": "Users need to see the 'big picture' worldview constructed from individual assumptions - this baseline narrative becomes the reference point against which counterfactuals will be compared in Phase 3",
+          "functionality": "Process all validated assumptions for a scenario, identify narrative themes and through-lines, generate coherent prose summary (300-500 words) that articulates the baseline worldview, highlight strongest assumptions anchoring the narrative",
+          "successCriteria": "Generated baseline narrative reads coherently, accurately represents aggregate assumptions without hallucination, captures key themes that domain experts recognize as the conventional wisdom for that scenario type",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "sprint_1760180146080_3",
+      "type": "sprint",
+      "name": "Sprint 3: Phase 2 - Deep Questioning Framework",
+      "description": "Design interrogative question template library across multiple dimensions (temporal/structural/actor-based/resource-based), implement context-specific question generation engine, build fragility and blind spot detection algorithms, create dependency mapping logic, develop user interface for guided questioning workflow",
+      "priority": "high",
+      "status": "completed",
+      "isEditing": false,
+      "individualTasks": [
+        {
+          "title": "Design Multi-Dimensional Question Template Library",
+          "description": "Create a comprehensive library of question templates organized across four core dimensions: temporal (timeline dependencies, sequence assumptions), structural (system architecture, component relationships), actor-based (stakeholder motivations, capability assumptions), and resource-based (availability, allocation, constraints). Each template should include parameterized placeholders for context injection and mapping to assumption categories from Phase 1.",
+          "purpose": "Provides the foundational question patterns needed to systematically interrogate assumptions and expose hidden vulnerabilities across all relevant dimensions of a complex scenario",
+          "functionality": "Store 15-20 template questions per dimension with metadata indicating applicability conditions, severity focus areas, and linkage to assumption types. Templates should support dynamic variable substitution based on scenario context.",
+          "successCriteria": "Complete template library with minimum 60 total questions across 4 dimensions, each validated against test scenarios and capable of generating contextually relevant interrogatives",
+          "status": "completed"
+        },
+        {
+          "title": "Implement Context-Aware Question Generation Engine",
+          "description": "Build an intelligent engine that analyzes Phase 1 assumption extraction output and automatically selects, customizes, and sequences relevant question templates. The engine must inject scenario-specific context into template placeholders, prioritize questions based on assumption fragility indicators, and generate 8-12 probing questions per scenario that target the most critical blind spots.",
+          "purpose": "Automates the transformation of generic question templates into targeted, contextually relevant interrogatives that expose specific vulnerabilities in the user's scenario",
+          "functionality": "Process assumption data structures from Phase 1, match assumptions to question templates using semantic analysis, populate template variables with scenario context, rank questions by potential impact, and output ordered question set with justification metadata",
+          "successCriteria": "Engine successfully generates contextually appropriate questions for 5 diverse test scenarios, with 80%+ user acceptance rating for question relevance and insightfulness",
+          "status": "completed"
+        },
+        {
+          "title": "Build Fragility Detection and Scoring Algorithm",
+          "description": "Develop algorithms that analyze user responses to generated questions and automatically identify fragility points—assumptions that show high sensitivity to challenge, lack supporting evidence, or reveal cascading dependencies. Implement a multi-factor scoring system that rates each identified fragility by severity (1-10), likelihood of breach (probability), and potential impact radius.",
+          "purpose": "Converts qualitative questioning results into quantitative fragility assessments that guide counterfactual generation and risk prioritization",
+          "functionality": "Parse user responses to deep questions, detect linguistic markers of uncertainty or weak justification, map dependency chains between assumptions, calculate fragility scores using weighted factors (evidence strength, dependency count, breach likelihood), and output ranked fragility report",
+          "successCriteria": "Algorithm correctly identifies and scores fragility points with 75%+ correlation to expert human assessment across 10 test scenarios, produces actionable fragility rankings",
+          "status": "completed"
+        },
+        {
+          "title": "Create Blind Spot and Unstated Dependency Mapper",
+          "description": "Implement logic that cross-references user's stated assumptions against comprehensive domain knowledge bases to identify gaps (blind spots) and implicit dependencies not explicitly acknowledged. Build dependency graph visualization showing relationships between stated assumptions, identified blind spots, and hidden dependencies with strength indicators.",
+          "purpose": "Reveals what the user hasn't considered—missing assumptions, overlooked dependencies, and implicit beliefs that could invalidate their entire analysis if proven wrong",
+          "functionality": "Compare scenario assumptions against domain-specific checklists, identify omitted critical factors, trace implicit dependency chains using graph algorithms, generate network visualization of assumption-dependency relationships, highlight high-risk blind spots",
+          "successCriteria": "System identifies minimum 3-5 genuine blind spots per test scenario (validated by domain experts), dependency mapper accurately represents relationships with <10% false positive connections",
+          "status": "completed"
+        },
+        {
+          "title": "Develop Guided Questioning Workflow UI",
+          "description": "Design and implement an intuitive user interface that guides users through the Deep Questioning phase step-by-step. Interface should display generated questions one at a time or in logical groups, provide contextual help explaining why each question matters, capture structured user responses (text + confidence ratings), show real-time fragility detection feedback, and present the final dependency map and blind spot report in an interactive, explorable format.",
+          "purpose": "Ensures users can effectively engage with the questioning process without feeling overwhelmed, understand the purpose behind each interrogative, and clearly see the insights being extracted from their responses",
+          "functionality": "Present questions in progressive disclosure format, include 'Why this question?' tooltips, provide response templates/prompts, display live fragility scoring as questions are answered, show progress indicator, generate final interactive summary dashboard with drill-down capabilities into specific fragilities and dependencies",
+          "successCriteria": "UI tested with 5+ users showing 80%+ task completion rate, average time to complete questioning workflow <20 minutes, users report clear understanding of outputs and actionable insights",
+          "status": "completed"
+        },
+        {
+          "title": "Build Question-Fragility-Counterfactual Integration Bridge",
+          "description": "Create the data pipeline and logic that transforms Phase 2 outputs (identified fragilities, blind spots, dependencies) into structured inputs for Phase 3 counterfactual generation. Map each fragility point to potential breach conditions, link blind spots to counterfactual axes, and prepare dependency graphs for cascade analysis in strategic outcome projection.",
+          "purpose": "Ensures seamless transition between Deep Questioning results and Counterfactual Generation phase, maintaining analytical coherence across the full reasoning pipeline",
+          "functionality": "Export fragility data in standardized schema compatible with Phase 3 input requirements, generate breach condition suggestions for top-ranked fragilities, tag blind spots with relevant strategic axes, serialize dependency graphs for cascade simulation, provide preview of how Phase 2 insights will inform counterfactuals",
+          "successCriteria": "All Phase 2 outputs successfully feed into Phase 3 with zero data transformation errors, breach condition suggestions rated 70%+ relevant by test users, full pipeline test from Phase 1→2→3 completes without manual intervention",
+          "status": "completed"
+        },
+        {
+          "title": "Implement Dimension-Specific Questioning Strategies",
+          "description": "Develop specialized interrogation logic for each of the four dimensions (temporal/structural/actor-based/resource-based) that applies dimension-appropriate analysis techniques. For temporal: sequence dependency analysis and timeline stress testing. For structural: component failure simulation and architecture brittleness checks. For actor-based: incentive alignment analysis and capability gap assessment. For resource-based: constraint violation scenarios and allocation sensitivity analysis.",
+          "purpose": "Ensures each dimension receives appropriate analytical depth using techniques specific to that domain, rather than generic questioning that might miss dimension-specific vulnerabilities",
+          "functionality": "Implement 4 specialized sub-modules with dimension-specific algorithms, each applying unique analytical lenses to scenario assumptions. Output dimension-specific fragility profiles that feed into the master fragility scoring system.",
+          "successCriteria": "Each dimension module identifies at least 2 unique fragility types not detected by generic questioning in test scenarios, dimension-specific insights rated more valuable than generic questions by 60%+ of test users",
+          "status": "completed"
+        },
+        {
+          "title": "Create Fragility Report Export and Documentation System",
+          "description": "Build comprehensive reporting functionality that exports Phase 2 analysis results in multiple formats (PDF, JSON, interactive HTML). Reports should include executive summary of top fragilities, detailed question-by-question analysis, dependency map visualizations, blind spot inventory with mitigation suggestions, and data export for integration with external strategic planning tools.",
+          "purpose": "Enables users to share insights with stakeholders, incorporate findings into broader planning processes, and maintain audit trail of analytical reasoning for high-stakes decisions",
+          "functionality": "Generate multi-format reports with customizable sections, include data visualizations (charts, graphs, dependency networks), provide filtering/sorting of fragilities by various criteria, support annotation and commenting for collaborative review, enable direct export to common project management formats",
+          "successCriteria": "Reports successfully generated in all 3 formats, exported data successfully imports into 2 major project management tools, report readability rated 4+/5 by non-technical stakeholders in usability testing",
+          "status": "completed"
+        },
+        {
+          "id": "task_1760353049772_9cuwlwwg5",
+          "title": "Build scenario input and assumption validation UI",
+          "description": "Develop user interface with rich text input for scenario description, real-time assumption extraction preview, interactive assumption validation workflow (accept/reject/edit), and domain tag management. Include guided input templates for common scenario types.",
+          "status": "completed",
+          "priority": "medium",
+          "estimatedEffort": "medium",
+          "createdAt": "2025-10-13T10:57:29.772Z",
+          "fromIssue": "issue_1760353046916_o03nezm1s",
+          "purpose": "",
+          "functionality": "",
+          "successCriteria": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "sprint_1760180146080_4",
+      "type": "sprint",
+      "name": "Sprint 4: Phase 3 & Risk Vector Visualization",
+      "description": "Implement six-axis counterfactual scenario generator with breach condition triggers, build divergence point mapping and cascading consequence projection, integrate severity and probability rating system, create interactive risk vector visualization using D3.js/React Flow/NetworkX, implement dependency graph and heat map components",
+      "priority": "high",
+      "status": "completed",
+      "isEditing": false,
+      "individualTasks": [
+        {
+          "id": "task_1760356804511_akrntszvw",
+          "title": "Design Six-Axis Counterfactual Framework and Data Schema",
+          "description": "Define the six strategic axes for counterfactual generation (temporal shifts, actor behavior changes, resource availability alterations, structural failures, information asymmetry changes, external shock scenarios). Create comprehensive data schema for breach conditions, divergence points, and cascading consequences with severity/probability metadata.",
+          "purpose": "Establishes the foundational taxonomy and data structures required for systematic counterfactual scenario generation across all strategic dimensions",
+          "functionality": "Defines axis taxonomy, breach condition templates, divergence point markers, consequence propagation rules, severity (1-10) and probability (0-1) rating scales. Implements database schema extensions for storing counterfactual scenarios with full lineage tracing to Phase 2 fragilities.",
+          "successCriteria": "Complete schema documentation with 6 well-defined axes, breach condition templates validated against 5 test scenarios, database migrations successful, schema supports 3-5 counterfactuals per axis with proper foreign key relationships to fragility analysis",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        },
+        {
+          "id": "task_1760356804511_yijxom4d2",
+          "title": "Implement Breach Condition Trigger Engine",
+          "description": "Build LLM-powered engine that analyzes Phase 2 fragility outputs and automatically generates plausible breach conditions for each strategic axis. Engine should map fragility severity, impact radius, and evidence gaps to realistic trigger events that would invalidate baseline assumptions.",
+          "purpose": "Automates the critical translation layer between identified fragilities and testable breach scenarios, enabling systematic exploration of how assumptions could fail",
+          "functionality": "Processes fragility analysis JSON, uses LLM with specialized prompts to generate breach conditions, maps fragilities to relevant axes using semantic matching, assigns initial plausibility scores, creates breach-to-fragility linkage metadata, supports user override and manual refinement.",
+          "successCriteria": "Engine generates 2-4 breach conditions per high-severity fragility, correctly distributes conditions across appropriate axes, produces natural language descriptions that are specific and actionable, achieves 75%+ relevance rating in user testing with 10 diverse scenarios",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        },
+        {
+          "id": "task_1760356804511_reqr8xg1s",
+          "title": "Build Counterfactual Scenario Generator with Divergence Mapping",
+          "description": "Implement core scenario generation engine that takes breach conditions as inputs and projects alternative outcome trajectories. System must identify timeline divergence points, map first-order consequences, simulate cascading effects through dependency graphs, and generate detailed narrative descriptions for each counterfactual.",
+          "purpose": "Provides the primary counterfactual generation capability that explores alternative futures by systematically tracing consequences of assumption breaches through interconnected scenario elements",
+          "functionality": "For each breach condition: identifies divergence timeline, traces consequence propagation through Phase 2 dependency graphs, generates 3-5 distinct counterfactual narratives per axis using LLM, assigns preliminary severity/probability scores, tracks affected actors/systems/resources, produces structured JSON output with narrative summaries.",
+          "successCriteria": "Generates minimum 18 counterfactuals (3 per axis × 6 axes) for test scenarios, each includes divergence timeline with 3-5 key points, documented cascade chains showing 2+ levels of consequences, narrative summaries (200-400 words), preliminary severity and probability scores",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        },
+        {
+          "id": "task_1760356804511_h5dxporng",
+          "title": "Implement Multi-Factor Severity and Probability Rating System",
+          "description": "Develop automated scoring algorithms that rate each counterfactual for severity (impact magnitude) and probability (breach likelihood). Severity factors: cascade depth, breadth of impact, deviation magnitude, irreversibility. Probability factors: fragility evidence strength, historical precedent, dependency failure requirements, time horizon.",
+          "purpose": "Enables prioritization and risk quantification of counterfactual scenarios, allowing users to focus strategic planning on highest-impact or most-likely alternative futures",
+          "functionality": "Multi-factor scoring engine with weighted components, confidence interval calculation, sensitivity analysis showing rating robustness, human-in-the-loop calibration interface for domain expertise integration, comparative scoring across scenarios, rating change tracking over analysis iterations.",
+          "successCriteria": "Rating algorithm produces scores for all counterfactuals with appropriate distribution (not clustered), severity and probability ratings show expected correlation patterns, calibration interface allows expert adjustment with audit trail, validation testing shows 70%+ correlation with expert assessments",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        },
+        {
+          "id": "task_1760356804511_3b34t2vjy",
+          "title": "Create Interactive Risk Vector Visualization with D3.js Network Graphs",
+          "description": "Build comprehensive visualization system using D3.js/React Flow that displays counterfactual scenarios, breach conditions, and risk vectors as interactive network graphs. Implement node types for assumptions, fragilities, breaches, and counterfactuals with edges showing causation and dependencies.",
+          "purpose": "Provides intuitive visual interface for exploring complex relationships between baseline assumptions, identified vulnerabilities, and alternative scenarios, enabling rapid pattern recognition and risk vector identification",
+          "functionality": "Force-directed network graph with colored nodes by type, edge weights showing dependency strength, interactive zoom/pan/filter controls, click-to-expand detail panels, highlighting of consequence chains on hover, severity-based node sizing, probability-based opacity, cluster detection for related scenarios.",
+          "successCriteria": "Visualization renders graphs with 100+ nodes without performance degradation (<2s load time), users can navigate from assumption to counterfactual in <4 clicks, interactive features work smoothly, detail panels show complete context, graph exports as SVG/PNG, achieves 4+/5 usability rating in testing with 5+ users",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        },
+        {
+          "id": "task_1760356804511_c7fiz1ph8",
+          "title": "Implement Risk Severity Heat Maps and Domain Analysis Dashboard",
+          "description": "Build heat map visualizations that show risk severity distribution across strategic axes, domains (political/economic/operational), and time horizons. Create dashboard interface combining heat maps with key metrics, filtering controls, and drill-down capabilities to explore specific vulnerability clusters.",
+          "purpose": "Enables rapid assessment of where risks concentrate across different analytical dimensions, supporting strategic prioritization and resource allocation decisions",
+          "functionality": "2D heat maps (axes vs. domains, axes vs. time, domains vs. severity), color gradients from green (low risk) to red (high risk), interactive cell clicks opening filtered counterfactual lists, summary statistics panel, export to PNG/PDF, responsive layout for dashboard presentation.",
+          "successCriteria": "Heat maps accurately reflect severity distributions from counterfactual data, interactive drill-down reveals relevant scenarios in <2 clicks, dashboard loads in <3 seconds, color schemes are colorblind-accessible, exports maintain readability at standard presentation sizes",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        },
+        {
+          "id": "task_1760356804511_akyno6pt2",
+          "title": "Build Counterfactual Comparison and Selection Interface",
+          "description": "Develop UI components for comparing multiple counterfactual scenarios side-by-side, analyzing outcome distributions, and selecting scenarios for Phase 5 strategic outcome projection. Include matrix view, filtering/sorting, tagging system, and portfolio builder for grouping related scenarios.",
+          "purpose": "Facilitates strategic decision-making by enabling systematic comparison of alternative futures and selection of most relevant scenarios for deeper trajectory analysis",
+          "functionality": "Side-by-side comparison view (2-4 scenarios), sortable matrix table with key metrics, tag-based filtering (axis, severity, probability ranges), portfolio builder for scenario grouping, overlap analysis identifying common consequences, export to Excel/CSV, selection workflow feeding Phase 5.",
+          "successCriteria": "Comparison view clearly highlights key differentiators, matrix supports multi-column sorting and filtering, portfolio feature groups scenarios with custom tags, overlap analysis identifies consequences in 3+ scenarios, export produces formatted reports, selection interface successfully passes data to Phase 5 module",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        },
+        {
+          "id": "task_1760356804511_5kem6n67g",
+          "title": "Implement Phase 2-to-Phase 3 Data Pipeline and Comprehensive Testing",
+          "description": "Create robust integration pipeline that automatically ingests Phase 2 fragility analysis outputs and triggers counterfactual generation workflow. Build comprehensive test suite covering end-to-end Phase 1→2→3 scenarios with diverse complexity levels, edge cases, and validation checkpoints.",
+          "purpose": "Ensures seamless workflow automation and data integrity across phase boundaries, validating that the multi-phase analytical pipeline operates correctly for diverse scenario types",
+          "functionality": "Automated pipeline triggering on Phase 2 completion, data transformation and validation checkpoints, error handling with rollback capabilities, lineage metadata preservation, integration tests for 10+ diverse scenarios, unit tests for each component, performance benchmarks, CI/CD integration.",
+          "successCriteria": "Pipeline processes Phase 2 outputs in <45 seconds for typical scenarios, zero data transformation errors in testing, full lineage tracing functional, 90%+ test coverage for new code, all tests pass in CI/CD pipeline, performance meets benchmarks (18 counterfactuals in <2 minutes)",
+          "status": "completed",
+          "createdAt": "2025-10-13T12:00:04.511Z",
+          "updatedAt": "2025-10-13T12:00:04.511Z"
+        }
+      ]
+    },
+    {
+      "id": "sprint_1760180146080_4.5",
+      "type": "sprint",
+      "name": "Sprint 4.5: Scoring, Visualization & Integration",
+      "description": "Advanced scoring algorithms, comprehensive frontend visualization, and full pipeline integration. Adds multi-factor severity and probability rating system with confidence intervals, D3.js interactive network visualization, heat maps and risk dashboard, comparison and selection interface with portfolio builder, and automated Phase 2→3 pipeline with comprehensive testing",
+      "priority": "high",
+      "status": "completed",
+      "isEditing": false,
+      "individualTasks": [
+        {
+          "id": "task_4.5_1",
+          "title": "Multi-Factor Severity & Probability Rating System",
+          "description": "Implement automated scoring algorithms that rate each counterfactual for severity (impact magnitude) and probability (breach likelihood). Severity factors: cascade depth, breadth of impact, deviation magnitude, irreversibility. Probability factors: fragility evidence strength, historical precedent, dependency failure requirements, time horizon. Include confidence interval calculation, human-in-the-loop calibration interface, and sensitivity analysis.",
+          "purpose": "Enables prioritization and risk quantification of counterfactual scenarios, allowing users to focus strategic planning on highest-impact or most-likely alternative futures",
+          "functionality": "Multi-factor scoring engine with weighted components, confidence interval calculation using bootstrap resampling and Monte Carlo simulation, web interface for expert score adjustments with learning capability, sensitivity analysis identifying which factors most influence scores, correlation validation with expert assessments (target: 70%+)",
+          "successCriteria": "Severity scores use all 4 components with configurable weights, probability scores use all 4 components with configurable weights, confidence intervals calculated for all scenarios, calibration interface allows expert adjustments, correlation with expert scores ≥70%, sensitivity analysis identifies top 3 influential factors per scenario",
+          "status": "completed",
+          "estimatedEffort": "24-32 hours"
+        },
+        {
+          "id": "task_4.5_2",
+          "title": "D3.js Network Visualization",
+          "description": "Build comprehensive visualization system using D3.js/React Flow that displays counterfactual scenarios, breach conditions, and risk vectors as interactive network graphs. Implement node types for assumptions, fragilities, breaches, and counterfactuals with edges showing causation and dependencies. Include force-directed layout, Canvas rendering for >100 nodes with Web Workers for layout calculation.",
+          "purpose": "Provides intuitive visual interface for exploring complex relationships between baseline assumptions, identified vulnerabilities, and alternative scenarios, enabling rapid pattern recognition and risk vector identification",
+          "functionality": "Force-directed network graph with colored nodes by type (assumptions=blue, fragilities=orange, breaches=red, counterfactuals=purple), edge types for dependencies/consequences/transitions, interactive zoom/pan/filter controls, click-to-expand detail panels, hover tooltips, highlighting of consequence chains, severity-based node sizing, probability-based opacity, cluster detection, layout persistence across sessions",
+          "successCriteria": "Renders 100+ node graphs in <2 seconds, all node types visually distinguishable, hover/click/drag/zoom/filter all functional, detail panel shows complete node information, layout persists across sessions, smooth animations (60 FPS on modern hardware)",
+          "status": "completed",
+          "estimatedEffort": "32-40 hours"
+        },
+        {
+          "id": "task_4.5_3",
+          "title": "Heat Maps & Dashboard",
+          "description": "Build heat map visualizations that show risk severity distribution across strategic axes, domains (political/economic/operational), and time horizons. Create dashboard interface combining heat maps with key metrics, filtering controls, and drill-down capabilities to explore specific vulnerability clusters. Include export functionality (PNG/PDF/CSV) and responsive layout for desktop/tablet/mobile.",
+          "purpose": "Enables rapid assessment of where risks concentrate across different analytical dimensions, supporting strategic prioritization and resource allocation decisions",
+          "functionality": "Three 2D heat maps (axes×domains, axes×time, domains×severity) with color gradients, interactive cell clicks opening filtered counterfactual lists, summary statistics panel (total counterfactuals, average severity by axis, highest risk domain, most likely time horizon, portfolio counts), export to PNG/PDF/CSV, responsive layout with side-by-side on desktop, stacked on tablet, swipeable carousel on mobile",
+          "successCriteria": "All 3 heat maps render correctly with accurate data, click cell to filter counterfactuals shows matching scenarios, summary statistics update based on filters, export to PNG/PDF/CSV functional, responsive layout works on desktop/tablet/mobile",
+          "status": "completed",
+          "estimatedEffort": "32-40 hours"
+        },
+        {
+          "id": "task_4.5_4",
+          "title": "Comparison & Selection Interface",
+          "description": "Develop UI components for comparing multiple counterfactual scenarios side-by-side, analyzing outcome distributions, and selecting scenarios for Phase 5 strategic outcome projection. Include matrix view with sortable/filterable table, portfolio builder with drag-and-drop for grouping related scenarios, overlap analysis identifying common consequences across 3+ scenarios, and Phase 5 export functionality.",
+          "purpose": "Facilitates strategic decision-making by enabling systematic comparison of alternative futures and selection of most relevant scenarios for deeper trajectory analysis",
+          "functionality": "Side-by-side comparison view (2-4 scenarios) with diff highlighting and PDF export, sortable matrix table with pagination (20 per page) supporting multi-column sort and filter by axis/domain/severity/probability, drag-and-drop portfolio builder with CRUD operations, overlap analysis identifying systemic risks (appear in 50%+ scenarios) with consequence frequency bar chart, Phase 5 export generating valid JSON with full lineage",
+          "successCriteria": "Side-by-side comparison works for 2-4 scenarios, matrix view supports sorting/filtering/pagination, portfolio builder allows drag-and-drop scenario management, overlap analysis identifies common consequences, Phase 5 export generates valid JSON",
+          "status": "completed",
+          "estimatedEffort": "24-32 hours"
+        },
+        {
+          "id": "task_4.5_5",
+          "title": "Phase 2-3 Pipeline & Comprehensive Testing",
+          "description": "Create robust integration pipeline that automatically ingests Phase 2 fragility analysis outputs and triggers counterfactual generation workflow. Build comprehensive test suite covering end-to-end Phase 1→2→3 scenarios with diverse complexity levels, edge cases, and validation checkpoints. Implement API endpoints, data validation checkpoints, error recovery with retries and fallbacks, and CI/CD integration with GitHub Actions.",
+          "purpose": "Ensures seamless workflow automation and data integrity across phase boundaries, validating that the multi-phase analytical pipeline operates correctly for diverse scenario types",
+          "functionality": "Automated pipeline triggering on Phase 2 completion with 7-step orchestration (detect completion, fetch results, generate breach conditions, generate counterfactuals, score scenarios, store in database, trigger frontend refresh), data transformation and validation checkpoints, error handling with 3x retry and exponential backoff, REST API endpoints (POST /api/phase3/generate, GET scenarios, GET graph, PUT score, DELETE scenario), integration tests for 10+ diverse scenarios, unit tests with 90%+ coverage, CI/CD workflow (test on PR, deploy to staging, manual production gate)",
+          "successCriteria": "Pipeline processes Phase 2 output automatically, all validation checkpoints pass for test data, error recovery handles LLM failures gracefully, 10+ integration tests pass, unit tests achieve 90%+ coverage, CI/CD workflow deploys to staging successfully, performance <2 minutes for 20 fragilities",
+          "status": "completed",
+          "estimatedEffort": "40-48 hours"
+        }
+      ]
+    },
+    {
+      "id": "sprint_1760180146080_5",
+      "type": "sprint",
+      "name": "Sprint 5: Strategic Outcome Projection & Comparison Tools",
+      "description": "Build Phase 5 strategic outcome trajectory projection system, implement timeline-based scenario analysis with confidence intervals, create decision point and inflection point identification logic, develop baseline vs counterfactual comparison interface, implement exportable report generation for risk vectors and strategic outcomes",
+      "priority": "medium",
+      "status": "completed",
+      "isEditing": false,
+      "individualTasks": [
+        {
+          "id": "task_1760646683971_2swcau17m",
+          "title": "Build Trajectory Timeline Data Model and Storage Schema",
+          "description": "Design and implement data structures for storing strategic outcome trajectories with temporal dimensions. Create database schema extensions for trajectory snapshots, decision points, inflection points, confidence intervals, and timeline metadata. Include versioning support for trajectory evolution and comparison.",
+          "purpose": "Establishes the foundational data model required to persist and query complex temporal trajectory data across multiple counterfactual scenarios",
+          "functionality": "Extends existing database schema with TrajectorySnapshots table (timestamp, state, confidence), DecisionPoints table (timestamp, type, impact, alternatives), InflectionPoints table (timestamp, criticality, intervention_window), and relationships to Counterfactuals. Supports time-series queries and trajectory comparison operations.",
+          "successCriteria": "Schema successfully stores 5+ test trajectories with 10+ snapshots each, supports querying by time range and counterfactual ID, maintains referential integrity with Phase 3 data, migration scripts execute without errors",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        },
+        {
+          "id": "task_1760646683971_j3zwn8ap1",
+          "title": "Implement Decision Point and Inflection Point Detection Engine",
+          "description": "Build algorithmic logic that analyzes counterfactual trajectory data to automatically identify critical decision points (moments requiring intervention choices) and inflection points (moments where trajectory curvature changes significantly). Use temporal analysis, consequence magnitude shifts, and dependency activation patterns.",
+          "purpose": "Automates identification of strategically important moments in projected outcomes where interventions could meaningfully alter trajectory paths",
+          "functionality": "Processes trajectory time-series data, detects decision points using consequence divergence analysis (>30% magnitude change), identifies inflection points using second derivative analysis of severity/probability curves, assigns criticality scores (1-10), generates intervention window estimates, produces structured output with timestamps and contextual metadata.",
+          "successCriteria": "Engine correctly identifies 3-7 decision points and 2-5 inflection points per trajectory in test scenarios, criticality scores correlate 70%+ with expert assessments, false positive rate <20%, processing time <10 seconds per trajectory",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        },
+        {
+          "id": "task_1760646683971_ctwixte7n",
+          "title": "Build Confidence Interval Calculation and Uncertainty Propagation System",
+          "description": "Implement Monte Carlo simulation and Bayesian estimation methods to calculate confidence intervals for trajectory projections. Model uncertainty propagation through cascading consequences, incorporating fragility scores, probability distributions, and temporal decay. Generate uncertainty bands for timeline visualizations.",
+          "purpose": "Quantifies prediction uncertainty and provides realistic confidence bounds for strategic outcome projections, enabling risk-aware decision making",
+          "functionality": "Runs Monte Carlo simulations (1000+ iterations) using probability distributions from Phase 3 severity/probability scores, applies temporal uncertainty decay functions, calculates percentile-based confidence intervals (50%, 80%, 95%), propagates uncertainty through consequence chains using Bayesian networks, generates interval data for visualization rendering.",
+          "successCriteria": "Confidence intervals calculated for all trajectory projections, intervals widen appropriately over time (demonstrating increasing uncertainty), simulation completes in <30 seconds per trajectory, validation shows intervals contain actual outcomes 80-95% of time in historical test cases",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        },
+        {
+          "id": "task_1760646683971_5h4ncepli",
+          "title": "Create Timeline-Based Trajectory Visualization Component",
+          "description": "Build interactive timeline visualization using D3.js or Recharts that displays strategic outcome trajectories with confidence intervals, decision points, and inflection points. Implement multi-trajectory overlay for comparing baseline vs counterfactual scenarios, zoom/pan controls, hover tooltips, and temporal filtering.",
+          "purpose": "Provides intuitive visual interface for exploring temporal evolution of strategic outcomes and comparing alternative trajectory paths",
+          "functionality": "Renders timeline with x-axis (time) and y-axis (outcome severity/probability composite), plots trajectory paths as lines with shaded confidence bands, marks decision points (diamonds) and inflection points (circles) with click-for-details, supports overlaying 2-5 trajectories simultaneously, color-codes by scenario, includes legend and axis controls, responsive design for desktop/tablet.",
+          "successCriteria": "Visualization renders 5+ trajectories without performance degradation (<2s load), confidence bands display correctly as shaded regions, decision/inflection point markers clickable with detail popups, zoom/pan functional, overlay comparison clearly distinguishes scenarios, achieves 4+/5 usability rating in user testing",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        },
+        {
+          "id": "task_1760646683971_5306z2u4q",
+          "title": "Implement Baseline vs Counterfactual Comparison Interface",
+          "description": "Develop comprehensive comparison UI that presents baseline scenario trajectory alongside selected counterfactual trajectories. Include side-by-side timeline views, difference metrics dashboard (divergence magnitude, timing, consequence deltas), key insight highlights, and toggle controls for selective comparison.",
+          "purpose": "Enables strategic analysts to systematically evaluate how alternative scenarios differ from baseline expectations across temporal dimensions",
+          "functionality": "Displays baseline trajectory (bold line) with up to 4 counterfactual overlays (dashed lines), calculates and displays divergence metrics (time-to-divergence, maximum deviation magnitude, area-between-curves), generates natural language summary of key differences, provides toggle checkboxes for showing/hiding specific scenarios, includes tabular comparison of decision points across scenarios.",
+          "successCriteria": "Interface successfully compares baseline with 1-4 counterfactuals simultaneously, divergence metrics calculate correctly and update dynamically, natural language summaries accurately describe key differences (validated by domain experts), toggle controls work smoothly, comparison exports to PDF maintaining visual fidelity",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        },
+        {
+          "id": "task_1760646683971_h9zf9k15o",
+          "title": "Build Intervention Impact Analysis and What-If Scenario Tool",
+          "description": "Create interactive tool allowing users to place hypothetical interventions at identified decision points and model resulting trajectory changes. Implement intervention impact estimation using consequence chain recalculation, updated confidence intervals, and trajectory re-projection.",
+          "purpose": "Transforms passive trajectory projection into active strategic planning tool by enabling exploration of intervention effectiveness",
+          "functionality": "Allows users to click decision points and specify intervention types (resource injection, policy change, actor behavior modification), recalculates affected consequence chains using Phase 2 dependency graphs, re-runs Monte Carlo simulation with modified parameters, generates 'intervention trajectory' overlay showing projected impact, calculates intervention ROI metrics (severity reduction, probability shift, cost-benefit if provided).",
+          "successCriteria": "Users can add interventions to 3+ decision points per trajectory, system recalculates modified trajectories in <15 seconds, intervention impact clearly visible in timeline visualization, multiple intervention scenarios can be saved and compared, generates exportable intervention analysis reports",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        },
+        {
+          "id": "task_1760646683971_h4yjnopy1",
+          "title": "Implement Exportable Strategic Outcome Report Generation",
+          "description": "Build comprehensive report generator that produces executive-ready documents combining trajectory visualizations, decision point analysis, inflection point summaries, baseline vs counterfactual comparisons, and intervention recommendations. Support multiple export formats (PDF, PowerPoint, interactive HTML, JSON for external tools).",
+          "purpose": "Enables distribution of Phase 5 analysis results to stakeholders and integration with external strategic planning workflows",
+          "functionality": "Generates structured reports with sections: Executive Summary (key findings, critical decision points), Trajectory Analysis (timeline visualizations with confidence intervals), Comparative Analysis (baseline vs counterfactuals with divergence metrics), Decision Point Catalog (detailed analysis of each identified point), Intervention Recommendations (prioritized by impact), Technical Appendix (methodology, data sources). Exports to PDF (high-quality charts), PPTX (editable slides), HTML (interactive), JSON (machine-readable).",
+          "successCriteria": "Reports successfully generate in all 4 formats, PDF maintains visual quality at print resolution, PPTX slides are editable with preserved formatting, HTML version includes interactive timeline exploration, JSON exports successfully import into 2+ external planning tools, generation time <45 seconds per report, user satisfaction rating 4+/5 for report clarity and completeness",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        },
+        {
+          "id": "task_1760646683971_srzbvvrys",
+          "title": "Build Phase 3-to-Phase 5 Integration Pipeline and End-to-End Workflow Testing",
+          "description": "Create automated pipeline that ingests selected counterfactual scenarios from Phase 3 and orchestrates Phase 5 trajectory projection workflow. Implement data validation, error handling, progress tracking, and comprehensive integration tests covering full Phase 1→2→3→5 analytical pipeline.",
+          "purpose": "Ensures seamless workflow automation from counterfactual generation through strategic outcome projection with robust error handling and data integrity",
+          "functionality": "Automated pipeline triggered by Phase 3 scenario selection, orchestrates 8-step workflow (fetch counterfactuals, load dependency graphs, project trajectories, detect decision/inflection points, calculate confidence intervals, generate visualizations, prepare comparison data, trigger UI refresh), includes validation checkpoints after each step, implements retry logic with exponential backoff, provides real-time progress updates, logs all operations for audit trail. Integration tests cover 10+ diverse end-to-end scenarios.",
+          "successCriteria": "Pipeline successfully processes Phase 3 outputs automatically, all validation checkpoints pass for test data, error recovery handles failures gracefully (3x retry), 10+ integration tests pass covering edge cases, progress tracking provides accurate completion estimates, full Phase 1→5 pipeline completes for test scenario in <5 minutes, unit test coverage >85% for new Phase 5 code",
+          "status": "completed",
+          "createdAt": "2025-10-16T20:31:23.971Z",
+          "updatedAt": "2025-10-16T20:31:23.971Z"
+        }
+      ]
+    },
+    {
+      "id": "sprint_1760180146080_6",
+      "type": "sprint",
+      "name": "Sprint 6: Integration, Testing & Refinement",
+      "description": "End-to-end workflow integration across all five phases, implement comprehensive test scenarios for high-stakes analysis cases, optimize LLM prompts and reasoning quality, refine UI/UX based on user feedback, performance optimization and error handling, finalize documentation and deployment to production environment",
+      "priority": "medium",
+      "status": "pending",
+      "isEditing": false,
+      "individualTasks": [
+        {
+          "id": "task_1760693839787_v5empu7b7",
+          "title": "End-to-End Workflow Integration Testing Framework",
+          "description": "Build comprehensive integration test suite that validates the complete five-phase workflow (Input → Surface Analysis → Deep Questioning → Counterfactual → Strategic Outcomes) with real-world high-stakes scenarios including geopolitical crises, market disruptions, and operational failures.",
+          "purpose": "Ensure all phases work together seamlessly and data flows correctly through the entire analysis pipeline without errors or data loss",
+          "functionality": "Automated test scenarios covering happy paths, edge cases, error recovery, and data validation across all phase transitions with assertions for data integrity, LLM response quality, and visualization accuracy",
+          "successCriteria": "All integration tests pass with >95% success rate, complete workflow executes in <5 minutes for standard scenarios, test coverage reports show >80% coverage of critical paths",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        },
+        {
+          "id": "task_1760693839787_y7kszdhe8",
+          "title": "LLM Prompt Engineering Optimization and Quality Benchmarking",
+          "description": "Systematically refine LLM prompts across all five phases through A/B testing, implement quality metrics for assumption extraction accuracy, question relevance, counterfactual plausibility, and trajectory coherence. Create prompt versioning system and benchmark suite.",
+          "purpose": "Improve reasoning quality, reduce hallucinations, ensure consistent high-quality outputs, and establish measurable baselines for LLM performance across different model providers",
+          "functionality": "Prompt template library with versioning, automated quality scoring using evaluation LLM, benchmark dataset of 20+ scenarios with ground truth annotations, A/B testing framework, and performance dashboard tracking accuracy/relevance/coherence metrics",
+          "successCriteria": "Assumption extraction accuracy >85%, question relevance score >4.0/5.0, counterfactual plausibility >75%, documented 20%+ improvement over baseline prompts, benchmark suite runs automatically in CI/CD",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        },
+        {
+          "id": "task_1760693839787_2t21yroll",
+          "title": "Performance Optimization and Scalability Enhancements",
+          "description": "Optimize application performance through database query optimization, LLM API call batching, frontend rendering improvements, caching strategies for expensive computations, and lazy loading for complex visualizations. Implement performance monitoring and alerting.",
+          "purpose": "Reduce analysis completion time, improve UI responsiveness, handle concurrent users, and minimize LLM API costs while maintaining functionality",
+          "functionality": "Database indexing and query optimization, Redis/memcached caching layer, React.memo and virtualization for large datasets, LLM request batching and rate limiting, Web Worker threads for heavy computations, performance monitoring with metrics dashboard",
+          "successCriteria": "Phase 1-3 completion time reduced by 40%, D3 network graph renders <2s for 500+ nodes, API response times <200ms for 95th percentile, LLM token usage reduced by 25%, application supports 50+ concurrent users",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        },
+        {
+          "id": "task_1760693839787_8exedavoq",
+          "title": "Comprehensive Error Handling and Recovery System",
+          "description": "Implement robust error handling across all system layers including LLM API failures, timeout handling, malformed input validation, database connection issues, and visualization rendering errors. Build user-friendly error messages, retry mechanisms, and graceful degradation strategies.",
+          "purpose": "Prevent user frustration, ensure analysis progress is never lost, provide clear error guidance, and maintain system stability under adverse conditions",
+          "functionality": "Try-catch blocks with specific error types, automatic retry logic with exponential backoff, user session state persistence, error boundary components in React, detailed error logging with Sentry/CloudWatch integration, fallback UI states, and user-friendly error messages with recovery suggestions",
+          "successCriteria": "Zero unhandled exceptions in production, all API calls have timeout and retry logic, user progress auto-saves every 30 seconds, error recovery rate >90%, detailed error logs captured for debugging, users can resume analysis after errors",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        },
+        {
+          "id": "task_1760693839787_t2yyd8evq",
+          "title": "UI/UX Refinement Based on User Feedback and Usability Testing",
+          "description": "Conduct usability testing sessions with target users (strategists, analysts, decision-makers), collect feedback on workflow clarity, information architecture, and visualization comprehensibility. Implement prioritized UI/UX improvements including navigation enhancements, progressive disclosure, contextual help, and accessibility features.",
+          "purpose": "Ensure the system is intuitive for non-technical users, reduce cognitive load during complex analysis, and improve user satisfaction and adoption rates",
+          "functionality": "User testing protocol and feedback collection system, prioritized improvement backlog, redesigned navigation with breadcrumbs and progress indicators, contextual tooltips and inline help, keyboard shortcuts, responsive design improvements, WCAG 2.1 AA accessibility compliance, and user onboarding tutorial",
+          "successCriteria": "Usability testing with 10+ target users completed, SUS (System Usability Scale) score >75, task completion rate >90%, time-to-first-analysis reduced by 30%, accessibility audit passes WCAG 2.1 AA standards, implemented 15+ high-priority UI improvements",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        },
+        {
+          "id": "task_1760693839787_wpzepqx2x",
+          "title": "Production Deployment Infrastructure and Documentation",
+          "description": "Set up production deployment infrastructure including cloud hosting (AWS/GCP/Azure), container orchestration, SSL certificates, domain configuration, environment variable management, backup systems, and monitoring/alerting. Create comprehensive technical and user documentation.",
+          "purpose": "Enable secure, reliable production deployment with professional infrastructure, ensure system maintainability, and provide documentation for administrators and end-users",
+          "functionality": "Docker containerization with multi-stage builds, Kubernetes/ECS orchestration configuration, automated deployment pipeline with blue-green deployment, environment-specific configs, database backup automation, CloudWatch/Datadog monitoring, SSL/TLS certificates, technical documentation (architecture diagrams, API specs, deployment guide), and user documentation (user manual, video tutorials, FAQ)",
+          "successCriteria": "Production environment deployed and accessible via HTTPS, uptime monitoring shows >99.5% availability, automated backups run daily, deployment pipeline executes zero-downtime deployments, technical documentation covers all system components, user manual completed with 10+ screenshots and examples",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        },
+        {
+          "id": "task_1760693839787_sgppmz9qz",
+          "title": "Security Hardening and Compliance Audit",
+          "description": "Implement security best practices including input sanitization, SQL injection prevention, XSS protection, authentication token security, API rate limiting, secrets management, and GDPR/data privacy compliance. Conduct security audit and penetration testing.",
+          "purpose": "Protect user data, prevent security vulnerabilities, ensure regulatory compliance, and build trust with enterprise users handling sensitive strategic information",
+          "functionality": "Input validation and sanitization across all forms, parameterized database queries, Content Security Policy headers, secure session management with HttpOnly cookies, secrets stored in environment variables/vault, API rate limiting per user, data encryption at rest and in transit, audit logging for sensitive operations, GDPR-compliant data deletion, and security testing with OWASP tools",
+          "successCriteria": "Security audit passes with zero critical vulnerabilities, penetration testing identifies no exploitable issues, all API keys removed from codebase, rate limiting prevents abuse (max 100 requests/min per user), data encryption enabled for all sensitive fields, GDPR compliance checklist completed, security documentation finalized",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        },
+        {
+          "id": "task_1760693839787_fjt4qy8sd",
+          "title": "High-Stakes Scenario Test Suite and Quality Validation",
+          "description": "Create curated test suite of 15-20 real-world high-stakes scenarios across domains (geopolitical tensions, market crashes, infrastructure failures, public health crises, supply chain disruptions) and systematically validate system output quality through expert review panels.",
+          "purpose": "Validate that the system produces valuable, actionable insights for real strategic decision-making contexts and meets quality standards expected by professional analysts",
+          "functionality": "Diverse scenario library covering multiple domains and complexity levels, automated execution of all scenarios through five-phase workflow, structured output evaluation rubrics (assumption quality, question depth, counterfactual plausibility, trajectory realism), expert panel review process, quality metrics aggregation, and iterative refinement based on expert feedback",
+          "successCriteria": "20 high-stakes scenarios documented and tested, expert panel reviews indicate >80% satisfaction with insight quality, system identifies non-obvious risks in >70% of scenarios, counterfactuals rated 'plausible and valuable' by domain experts in >75% of cases, documented examples of actionable strategic insights generated",
+          "status": "pending",
+          "createdAt": "2025-10-17T09:37:19.787Z",
+          "updatedAt": "2025-10-17T09:37:19.787Z"
+        }
+      ]
+    }
+  ],
+  "issueNodes": [
+    {
+      "id": "issue_1760354763632_j3s4eoiyn",
+      "type": "issue",
+      "title": "Manager needs to check code in after sprint",
+      "description": "test",
+      "issueType": "feature",
+      "priority": "medium",
+      "status": "open",
+      "estimatedEffort": "medium",
+      "createdAt": "2025-10-13T11:26:03.632Z",
+      "updatedAt": "2025-10-13T11:38:20.243Z",
+      "isEditing": false,
+      "isDirty": false,
+      "relatedRequirements": [],
+      "relatedUseCases": [],
+      "labels": [],
+      "reportedBy": "User",
+      "version": 1
+    }
+  ],
+  "processFlow": {
+    "currentPhase": "concept",
+    "completedPhases": [],
+    "nodeCompletionStats": {
+      "concept": {
+        "total": 1,
+        "completed": 0,
+        "inProgress": 1,
+        "pending": 0
+      },
+      "useCase": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "requirement": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "architecture": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "sprint": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      }
+    },
+    "flowValid": true,
+    "validationErrors": [],
+    "lastUserInteraction": "2025-10-11T10:34:17.275Z",
+    "userFeedbackPending": false
+  },
+  "nodeHistory": [
+    {
+      "id": "hist_1760178857286",
+      "timestamp": "2025-10-11T10:34:17.275Z",
+      "action": "created",
+      "nodeId": "proj_1760178857275_vporte4e6",
+      "nodeType": "project",
+      "oldValue": null,
+      "newValue": "",
+      "cascadingChanges": [],
+      "userInitiated": true,
+      "userReasoning": "Project created by user"
+    }
+  ],
+  "createdAt": "2025-10-11T10:34:17.275Z",
+  "updatedAt": "2025-11-08T12:49:08.982Z",
+  "version": "1.0.0",
+  "modelPreferences": {
+    "managerModel": "haiku",
+    "coderModel": "opus"
+  },
+  "selectedArchitecture": "arch_1760179618129_0afnk7jfv",
+  "designSystem": "dark",
+  "colorScheme": "ocean",
+  "componentLibrary": "mui",
+  "designUpload": "",
+  "projectPath": "/Users/raminhedayatpour/Documents/VibeProjects/test",
+  "devServerUrl": "http://localhost:3000",
+  "mcpServers": {
+    "sourceControl": {
+      "enabled": true,
+      "provider": "github",
+      "config": {}
+    },
+    "productDefinition": {
+      "enabled": false,
+      "provider": "jira",
+      "config": {}
+    },
+    "issues": {
+      "enabled": true,
+      "provider": "github-issues",
+      "config": {}
+    },
+    "documentation": {
+      "enabled": false,
+      "provider": "confluence",
+      "config": {}
+    },
+    "taskManagement": {
+      "enabled": false,
+      "provider": "trello",
+      "config": {}
+    }
+  },
+  "executionState": {
+    "executionMode": "manual",
+    "autoExecutionQueue": [],
+    "currentTaskIndex": 0,
+    "taskStatuses": {},
+    "lastSessionUpdate": "2025-11-08T12:49:08.964Z"
+  }
+}

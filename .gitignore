@@ -1,3 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -31,7 +42,7 @@ ehthumbs.db
 Thumbs.db
 
 # Logs
-logs
+logs/
 *.log
 
 # Temporary files
@@ -43,3 +54,45 @@ temp/
 # Cache
 .cache/
 *.tsbuildinfo
+.pytest_cache/
+.mypy_cache/
+
+# Database
+*.db
+*.sqlite
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Jupyter
+.ipynb_checkpoints
+
+# Docker
+.dockerignore
+
+# Alembic
+backend/alembic/versions/*.py
+!backend/alembic/versions/__init__.py
+
+# Streamlit
+.streamlit/
+
+# Data files (but not config)
+data/
+*.csv
+data/**/*.json
+
+# Vibing activity logs (but track project.vib)
+.vibing/activity-logs/
+.vibing-assets/browser-logs/
+activity-logs.json
+
+# Keep important files that should be tracked
+!package.json
+!package-lock.json
+!tsconfig.json
+!.env.example

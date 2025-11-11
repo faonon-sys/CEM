@@ -1,5 +1,5 @@
 {
-  "projectId": "proj_1753726545687_bjixeymrp",
+  "projectId": "proj_1760178857275_vporte4e6",
   "logs": [
     {
       "id": "log_1753804400321_tv4bakvru",
@@ -30,7 +30,22 @@
       "level": "error",
       "title": "Stop failed",
       "message": "Error stopping session: No execution state found for project proj_1753726545687_bjixeymrp"
+    },
+    {
+      "id": "log_1760645191662_85d304kma",
+      "timestamp": "2025-10-16T20:06:31.662Z",
+      "level": "warning",
+      "title": "Session stopped",
+      "message": "Session sprint-execution-1760645040902 has been stopped from Coder Console",
+      "sessionId": "sprint-execution-1760645040902"
+    },
+    {
+      "id": "log_1760645191940_dqgl7sjzk",
+      "timestamp": "2025-10-16T20:06:31.940Z",
+      "level": "info",
+      "title": "Stop successful",
+      "message": "Claude Code session has been stopped"
     }
   ],
-  "lastUpdated": "2025-07-29T15:55:56.977Z"
+  "lastUpdated": "2025-10-16T20:06:31.950Z"
 }

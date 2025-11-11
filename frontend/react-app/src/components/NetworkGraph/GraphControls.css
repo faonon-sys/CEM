@@ -1,0 +1,65 @@
+.graph-controls {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: rgba(26, 26, 26, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  min-width: 200px;
+}
+
+.controls-section h3 {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.control-group {
+  margin-bottom: 1rem;
+}
+
+.control-group label {
+  display: block;
+  font-size: 0.75rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.reset-button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.reset-button:hover {
+  background-color: #dc2626;
+}

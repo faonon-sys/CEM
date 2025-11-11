@@ -1,0 +1,267 @@
+/* Assumption Card Styles */
+
+.assumption-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.2s;
+}
+
+.assumption-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.assumption-card.selected {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.priority-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.quality-score {
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.validation-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.validation-badge.validated {
+  background-color: #10b981;
+  color: white;
+}
+
+/* Card Body */
+.card-body {
+  margin-bottom: 1rem;
+}
+
+.assumption-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+/* Domains */
+.domains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.domain-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.cross-domain-indicator {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  background-color: #f3f4f6;
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+/* Confidence Bar */
+.confidence-bar {
+  margin-bottom: 1rem;
+}
+
+.confidence-bar label {
+  display: block;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+/* Card Details (Expandable) */
+.card-details {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.source-excerpt {
+  margin-bottom: 1rem;
+}
+
+.source-excerpt strong {
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.source-excerpt blockquote {
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  background-color: #f9fafb;
+  border-left: 3px solid #3b82f6;
+  font-style: italic;
+  color: #374151;
+}
+
+/* Quality Breakdown */
+.quality-breakdown {
+  margin-bottom: 1rem;
+}
+
+.quality-breakdown h4 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #374151;
+}
+
+.dimension {
+  margin-bottom: 0.75rem;
+}
+
+.dimension label {
+  display: block;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.progress-fill.specificity { background-color: #8b5cf6; }
+.progress-fill.verifiability { background-color: #3b82f6; }
+.progress-fill.impact { background-color: #ef4444; }
+.progress-fill.source { background-color: #10b981; }
+
+/* Domain Confidence */
+.domain-confidence {
+  margin-top: 1rem;
+}
+
+.domain-confidence h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.domain-conf-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.conf-value {
+  font-weight: 600;
+}
+
+/* Card Actions */
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.btn-expand {
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-expand:hover {
+  background-color: #f3f4f6;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-accept, .btn-reject {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-accept {
+  background-color: #10b981;
+  color: white;
+}
+
+.btn-accept:hover:not(:disabled) {
+  background-color: #059669;
+}
+
+.btn-accept:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-reject {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn-reject:hover {
+  background-color: #dc2626;
+}

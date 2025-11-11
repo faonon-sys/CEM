@@ -1,0 +1,166 @@
+.inflection-points-panel {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.inflection-points-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inflection-point-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  background: white;
+  transition: box-shadow 0.2s;
+}
+
+.inflection-point-card:hover {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.ip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.ip-time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ip-time strong {
+  font-size: 15px;
+  color: #111827;
+}
+
+.ip-index {
+  background: #f3f4f6;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.ip-type {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ip-content {
+  margin-top: 12px;
+}
+
+.ip-magnitude {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #374151;
+}
+
+.ip-magnitude strong {
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.ip-trigger {
+  margin-bottom: 12px;
+}
+
+.ip-trigger strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.ip-trigger p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.ip-trends {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 6px;
+}
+
+.trend-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.trend-label {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.trend-value {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.trend-value.positive {
+  color: #10b981;
+}
+
+.trend-value.negative {
+  color: #ef4444;
+}
+
+.ip-state-changes {
+  font-size: 13px;
+  color: #374151;
+  margin-top: 12px;
+}
+
+.ip-state-changes strong {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.ip-state-changes ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.ip-state-changes li {
+  margin-bottom: 6px;
+  padding: 6px;
+  background: #f9fafb;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: 'Courier New', monospace;
+}
+
+.state-key {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.state-value {
+  color: #374151;
+}
+
+.empty-panel {
+  padding: 40px 20px;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 14px;
+}

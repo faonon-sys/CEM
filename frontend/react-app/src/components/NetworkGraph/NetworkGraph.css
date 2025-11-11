@@ -1,0 +1,53 @@
+.network-graph-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 140px);
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.network-canvas {
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+.network-canvas:active {
+  cursor: grabbing;
+}
+
+.legend {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(26, 26, 26, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.legend h3 {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.legend-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.legend-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}

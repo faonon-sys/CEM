@@ -1,0 +1,38 @@
+{
+  "title": "Taiwan Strait Crisis Escalation",
+  "description": "A military standoff in the Taiwan Strait has escalated following a series of increasingly aggressive Chinese military exercises and U.S. naval deployments. Key assumptions include that both sides seek to avoid direct confrontation, that regional allies will maintain their current positions, that economic interdependence will serve as a deterrent, and that international diplomatic channels remain open and effective. The prevailing expectation is that both sides will de-escalate through backchannel negotiations while maintaining public postures of strength.",
+  "expected_assumptions": [
+    {
+      "text": "Both U.S. and China seek to avoid direct military confrontation",
+      "category": "political",
+      "confidence": 0.85
+    },
+    {
+      "text": "Regional allies (Japan, South Korea) will maintain current alliance positions",
+      "category": "geopolitical",
+      "confidence": 0.75
+    },
+    {
+      "text": "Economic interdependence between U.S. and China will serve as deterrent",
+      "category": "economic",
+      "confidence": 0.7
+    },
+    {
+      "text": "International diplomatic channels remain functional",
+      "category": "diplomatic",
+      "confidence": 0.8
+    },
+    {
+      "text": "Taiwan will not unilaterally declare independence",
+      "category": "political",
+      "confidence": 0.9
+    }
+  ],
+  "expected_vulnerabilities": [
+    "Miscalculation or accidental engagement",
+    "Domestic political pressures overriding rational deterrence",
+    "Third-party actors disrupting negotiations",
+    "Economic ties proving insufficient as deterrent",
+    "Communication failures during critical moments"
+  ]
+}

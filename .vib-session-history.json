@@ -1,0 +1,122 @@
+{
+  "projectId": "proj_1760178857275_vporte4e6",
+  "sessions": [
+    {
+      "sessionId": "session_sprint_1760180146080_1_1760180328350",
+      "sprintId": "sprint_1760180146080_1",
+      "status": "completed",
+      "startedAt": "2025-10-11T10:58:48.392Z",
+      "tasksCompleted": 0,
+      "totalTasks": 10,
+      "endedAt": "2025-10-11T11:02:15.942Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_1_1760350670472",
+      "sprintId": "sprint_1760180146080_1",
+      "status": "completed",
+      "startedAt": "2025-10-13T10:17:50.499Z",
+      "tasksCompleted": 0,
+      "totalTasks": 10,
+      "endedAt": "2025-10-13T10:35:58.646Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_2_1760351793233",
+      "sprintId": "sprint_1760180146080_2",
+      "status": "completed",
+      "startedAt": "2025-10-13T10:36:33.233Z",
+      "tasksCompleted": 0,
+      "totalTasks": 8,
+      "endedAt": "2025-10-13T10:55:41.287Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_3_1760353062250",
+      "sprintId": "sprint_1760180146080_3",
+      "status": "completed",
+      "startedAt": "2025-10-13T10:57:42.250Z",
+      "tasksCompleted": 0,
+      "totalTasks": 9,
+      "endedAt": "2025-10-13T11:15:12.781Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_4_1760356889948",
+      "sprintId": "sprint_1760180146080_4",
+      "status": "completed",
+      "startedAt": "2025-10-13T12:01:30.047Z",
+      "tasksCompleted": 0,
+      "totalTasks": 8,
+      "endedAt": "2025-10-13T12:20:03.504Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_4.5_1760362798602",
+      "sprintId": "sprint_1760180146080_4.5",
+      "status": "running",
+      "startedAt": "2025-10-13T13:39:58.723Z",
+      "tasksCompleted": 0,
+      "totalTasks": 5
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_4.5_1760630762228",
+      "sprintId": "sprint_1760180146080_4.5",
+      "status": "completed",
+      "startedAt": "2025-10-16T16:06:02.344Z",
+      "tasksCompleted": 0,
+      "totalTasks": 5,
+      "endedAt": "2025-10-16T16:24:40.539Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_5_1760637217777",
+      "sprintId": "sprint_1760180146080_5",
+      "status": "completed",
+      "startedAt": "2025-10-16T17:53:37.777Z",
+      "tasksCompleted": 0,
+      "totalTasks": 8,
+      "endedAt": "2025-10-16T18:15:18.017Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_5_1760640957781",
+      "sprintId": "sprint_1760180146080_5",
+      "status": "completed",
+      "startedAt": "2025-10-16T18:55:57.781Z",
+      "tasksCompleted": 0,
+      "totalTasks": 8,
+      "endedAt": "2025-10-16T19:08:04.841Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_4.5_1760644890525",
+      "sprintId": "sprint_1760180146080_4.5",
+      "status": "completed",
+      "startedAt": "2025-10-16T20:01:30.646Z",
+      "tasksCompleted": 0,
+      "totalTasks": 5,
+      "endedAt": "2025-10-16T20:06:51.340Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_4.5_1760647482525",
+      "sprintId": "sprint_1760180146080_4.5",
+      "status": "completed",
+      "startedAt": "2025-10-16T20:44:42.623Z",
+      "tasksCompleted": 0,
+      "totalTasks": 5,
+      "endedAt": "2025-10-16T20:57:38.770Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_5_1760687789046",
+      "sprintId": "sprint_1760180146080_5",
+      "status": "completed",
+      "startedAt": "2025-10-17T07:56:29.245Z",
+      "tasksCompleted": 0,
+      "totalTasks": 8,
+      "endedAt": "2025-10-17T08:10:24.604Z"
+    },
+    {
+      "sessionId": "session_sprint_1760180146080_6_1760694303561",
+      "sprintId": "sprint_1760180146080_6",
+      "status": "completed",
+      "startedAt": "2025-10-17T09:45:03.680Z",
+      "tasksCompleted": 0,
+      "totalTasks": 8,
+      "endedAt": "2025-10-17T10:07:21.563Z"
+    }
+  ],
+  "lastUpdated": "2025-10-17T10:07:21.573Z"
+}
