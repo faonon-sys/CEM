@@ -115,35 +115,6 @@ class StrategicOutcome(Base):
     confidence_intervals = Column(JSONB)  # Confidence bounds over time
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
-    # --- Fragility Analysis (Phase 3) ---
-class FragilityAnalysis(Base):
-    """
-    Stores fragility evaluation for a given counterfactual.
-    Designed to hold both a single summary score and a structured breakdown.
-    """
-    __tablename__ = "fragility_analyses"
-
-    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
-
-    counterfactual_id = Column(
-        UUID(as_uuid=True),
-        ForeignKey("counterfactuals.id", ondelete="CASCADE"),
-        index=True,
-        nullable=False
-    )
-
-    overall_score = Column(Numeric(5, 2), nullable=True)
-    result = Column(JSON, nullable=False, default=dict)
-    notes = Column(Text, nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
-
-    counterfactual = relationship("Counterfactual", back_populates="fragility_analyses")
-
-    def __repr__(self):
-        return f"<FragilityAnalysis id={self.id} cf={self.counterfactual_id} score={self.overall_score}>"
-
-
     # Relationships
     counterfactual = relationship("Counterfactual", back_populates="strategic_outcomes")
 
