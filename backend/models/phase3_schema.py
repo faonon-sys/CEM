@@ -261,6 +261,36 @@ class CounterfactualPortfolio(Base):
 
     def __repr__(self):
         return f"<CounterfactualPortfolio(id={self.id}, name={self.name})>"
+# --- Fragility Analysis (Phase 3) ---
+class FragilityAnalysis(Base):
+    """
+    Stores fragility evaluation for a given counterfactual.
+    Holds a single summary score and a structured JSON breakdown.
+    """
+    __tablename__ = "fragility_analyses"
+
+    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+
+    counterfactual_id = Column(
+        UUID(as_uuid=True),
+        ForeignKey("counterfactuals.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+
+    # Core results
+    overall_score = Column(Numeric(5, 2), nullable=True)      # optional: 0–100.00 etc
+    result = Column(JSON, nullable=False, default=dict)       # structured breakdown
+    notes = Column(Text, nullable=True)
+
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+
+    # Relationships
+    counterfactual = relationship("Counterfactual", back_populates="fragility_analyses")
+
+    def __repr__(self):
+        return f"<FragilityAnalysis(id={self.id}, cf_id={self.counterfactual_id})>"
 
 __all__ = [
     "CounterfactualAxis",
