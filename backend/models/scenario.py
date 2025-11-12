@@ -1,3 +1,4 @@
+import models.phase3_schema  # noqa: F401  <-- ensure FragilityAnalysis is registered
 """
 Scenario and analysis models for multi-phase reasoning system.
 """
