@@ -436,3 +436,7 @@ async def generate_all_breaches(
             breach_map[fragility_id] = []
 
     return breach_map
+
+# Backwards compatibility alias for older code
+BreachConditionGenerator = BreachConditionEngine
+
